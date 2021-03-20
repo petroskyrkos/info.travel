@@ -1,13 +1,18 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>info.travel</title>
+	<title>info.traveler</title>
+	<link rel="shortcut icon" type="image" href="assets/img/logot.jpg">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/my-login.css">
 </head>
+
 <body class="my-login-page">
 	<section class="h-100">
 		<div class="container h-100">
@@ -17,56 +22,49 @@
 						<div class="brand">
 							<img src="assets/img/logo.png" alt="logo">
 						</div>
-						<div class="card-body">
-							<h4 class="card-title">Register</h4>
-							<form method="POST" class="my-login-validation" novalidate="">
-								<div class="form-group">
-									<label for="name">Name</label>
-									<input id="name" type="text" class="form-control" name="name" required autofocus>
-									<div class="invalid-feedback">
-										What's your name?
-									</div>
-								</div>
-
+						<div class="card-body" >
+							<h4 class="card-title">Login</h4>
+							<form method="POST" class="my-login-validation" novalidate="" action="./Includes/login.inc.php">
 								<div class="form-group">
 									<label for="email">E-Mail Address</label>
-									<input id="email" type="email" class="form-control" name="email" required>
+									<input id="mailuid" type="email" class="form-control" name="mailuid" value="" required autofocus>
 									<div class="invalid-feedback">
-										Your email is invalid
+										Email is invalid
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label for="password">Password</label>
-									<input id="password" type="password" class="form-control" name="password" required data-eye>
-									<div class="invalid-feedback">
-										Password is required
-									</div>
+									<label for="password">Password
+										<a href="forgot.html" class="float-right">
+											Forgot Password?
+										</a>
+									</label>
+									<input id="pwd" type="password" class="form-control" name="pwd" required data-eye>
+								    <div class="invalid-feedback">
+								    	Password is required
+							    	</div>
 								</div>
 
 								<div class="form-group">
 									<div class="custom-checkbox custom-control">
-										<input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
-										<label for="agree" class="custom-control-label">I agree to the <a href="#">Terms and Conditions</a></label>
-										<div class="invalid-feedback">
-											You must agree with our Terms and Conditions
-										</div>
+										<input type="checkbox" name="remember" id="remember" class="custom-control-input">
+										<label for="remember" class="custom-control-label">Remember Me</label>
 									</div>
 								</div>
 
 								<div class="form-group m-0">
-									<button type="submit" class="btn btn-primary btn-block">
-										Register
+									<button type="submit" class="btn btn-primary btn-block"  name="login-submit" >
+										Login
 									</button>
 								</div>
 								<div class="mt-4 text-center">
-									Already have an account? <a href="index.html">Login</a>
+									Don't have an account? <a href="register.html">Create One</a>
 								</div>
 							</form>
 						</div>
 					</div>
 					<div class="footer">
-						Copyright &copy; 2021 &mdash; PetrElen 
+						Copyright &copy; 2021 &mdash; PetrElen
 					</div>
 				</div>
 			</div>
