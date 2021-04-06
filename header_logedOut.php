@@ -46,7 +46,10 @@ echo 'Loged out'
           <li class="drop-down"><a href="#">Countries</a>
             <ul>
               <li><a href="about.html">Spain</a></li>
-              <li><a href="team.html">Engalnd</a></li>
+              <ul>
+                <li><a href="team.html">England</a></li>
+              </ul>
+              <li><a href="team.html">England</a></li>
               <li><a href="testimonials.html">Paris</a></li>
               <li><a href="team.html">Switzerland</a></li>
               <li><a href="team.html">Norway</a></li>
