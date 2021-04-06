@@ -1,0 +1,3 @@
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active{
+    background: #2395d9   !important;
+}
