@@ -41,7 +41,7 @@ echo 'Loged out'
       <nav class="nav-menu d-none d-lg-block">
 
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
 
           <li><a href="spain.php">Spain</a></li>
           <li><a href="index.html">England</a></li>
