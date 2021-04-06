@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 12 Μαρ 2021 στις 12:44:38
--- Έκδοση διακομιστή: 10.4.17-MariaDB
--- Έκδοση PHP: 8.0.2
+-- Χρόνος δημιουργίας: 06 Απρ 2021 στις 18:52:14
+-- Έκδοση διακομιστή: 10.4.13-MariaDB
+-- Έκδοση PHP: 7.4.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -76,9 +76,9 @@ CREATE TABLE `hotels` (
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `User_name` text NOT NULL,
-  `password` longtext NOT NULL,
-  `email` longtext NOT NULL,
+  `uidUsers` text NOT NULL,
+  `pwdUsers` longtext NOT NULL,
+  `emailUsers` longtext NOT NULL,
   `Last_Name` text NOT NULL,
   `First_Name` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -87,10 +87,14 @@ CREATE TABLE `users` (
 -- Άδειασμα δεδομένων του πίνακα `users`
 --
 
-INSERT INTO `users` (`id`, `User_name`, `password`, `email`, `Last_Name`, `First_Name`) VALUES
+INSERT INTO `users` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `Last_Name`, `First_Name`) VALUES
 (1, 'petros', '123', 'asdasda@gmail.com', '', ''),
 (2, 'eleni', '123123', 'asdasda@gmail.com', '', ''),
-(3, 'ka', '123214', 'asdasdas$gmail.com', 'asd', 'asd');
+(3, 'ka', '123214', 'asdasdas$gmail.com', 'asd', 'asd'),
+(4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', '', ''),
+(5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', '', ''),
+(6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', '', ''),
+(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', '', '');
 
 -- --------------------------------------------------------
 
@@ -175,7 +179,7 @@ ALTER TABLE `hotels`
 -- AUTO_INCREMENT για πίνακα `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT για πίνακα `user_profile`

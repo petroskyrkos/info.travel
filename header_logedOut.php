@@ -43,11 +43,13 @@ echo 'Loged out'
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
 
-          <li class="drop-down"><a href="#">About</a>
+          <li class="drop-down"><a href="#">Countries</a>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="about.html">Spain</a></li>
+              <li><a href="team.html">Engalnd</a></li>
+              <li><a href="testimonials.html">Paris</a></li>
+              <li><a href="team.html">Switzerland</a></li>
+              <li><a href="team.html">Norway</a></li>
 
               <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
