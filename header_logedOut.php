@@ -36,14 +36,21 @@ echo 'Loged out'
 
       
       
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></a>
+      <a href="index.php" class="logo"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
 
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
 
-          <li class="drop-down"><a href="#">Countries</a>
+          <li><a href="spain.php">Spain</a></li>
+          <li><a href="index.html">England</a></li>
+          <li><a href="index.html">Paris</a></li>
+          <li><a href="index.html">Switzerland</a></li>
+          <li><a href="index.html">Norway</a></li>
+
+
+          <!-- <li class="drop-down"><a href="#">Countries</a>
             <ul>
               <li><a href="about.html">Spain</a></li>
               <ul>
@@ -69,7 +76,7 @@ echo 'Loged out'
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
           <li><a href="contact.html">Contact</a></li>
 
         </ul>
