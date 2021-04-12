@@ -1,5 +1,5 @@
 <?php
-echo 'Loged In'
+echo 'Loged In1'
 ?>
 
 <!DOCTYPE html>
@@ -78,6 +78,12 @@ echo 'Loged In'
                     <button class="get-started-btn ml-auto"  type="submit" name="logout-submit" id="logout">Logout</button>
                 </form>';
                 }
+
+                if(isset($_COOKIE['id'])) {
+                  echo '<form action="includes/logout.inc.php" method="post"  >
+                  <button class="get-started-btn ml-auto"  type="submit" name="logout-submit" id="logout">Logout</button>
+              </form>';
+              }
         ?>
       <p id="loggedIn"> </p>
     </div>

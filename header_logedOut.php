@@ -78,10 +78,12 @@ echo 'Loged out'
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li> -->
           <li><a href="contact.html">Contact</a></li>
+          
 
         </ul>
 
       </nav><!-- .nav-menu -->
+      
 
       <a href="login.php" class="get-started-btn ml-auto">Sign in</a>
       <a href="register.php" class="get-started-btn ml-auto">Sign up</a>
@@ -91,6 +93,11 @@ echo 'Loged out'
                     <button class="btn btn-outline-success" type="submit" name="logout-submit" id="logout">Logout</button>
                 </form>';
                 }
+                if(isset($_COOKIE['id'])) {
+                  echo '<form action="includes/logout.inc.php" method="post"  >
+                  <button class="get-started-btn ml-auto"  type="submit" name="logout-submit" id="logout">Logout</button>
+              </form>';
+              }
         ?>
       <p id="loggedIn"> </p>
     </div>

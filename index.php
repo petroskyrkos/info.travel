@@ -247,10 +247,15 @@
   //include "./login.php";  
 			    if (isset($_SESSION['userId'])) {
 			        echo '<p id="loggedIn">You are logged in! </p>';
-			        header('Location: ./index.php');
 			    } else {
 			        echo '<p id="loggedOut">You are logged out! </p>';
 			    }
+
+          if(!isset($_COOKIE['id'])){
+            echo 'Cookies: You are logged Out!';
+           }else{
+               echo 'Cookies: You are logged in!';
+           }
 			    ?>
   </footer><!-- End Footer -->
 
