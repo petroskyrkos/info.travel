@@ -42,24 +42,11 @@ echo 'Loged out'
 
         <ul>
           <li><a href="index.php">Home</a></li>
-
-          <li><a href="spain.php">Spain</a></li>
-          <li><a href="index.html">England</a></li>
-          <li><a href="index.html">Paris</a></li>
-          <li><a href="index.html">Switzerland</a></li>
-          <li><a href="index.html">Norway</a></li>
-
-
-          <!-- <li class="drop-down"><a href="#">Countries</a>
+          <li class="drop-down"><a href="#">About</a>
             <ul>
-              <li><a href="about.html">Spain</a></li>
-              <ul>
-                <li><a href="team.html">England</a></li>
-              </ul>
-              <li><a href="team.html">England</a></li>
-              <li><a href="testimonials.html">Paris</a></li>
-              <li><a href="team.html">Switzerland</a></li>
-              <li><a href="team.html">Norway</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
 
               <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
@@ -72,12 +59,12 @@ echo 'Loged out'
               </li>
             </ul>
           </li>
-
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="spain.php">Spain</a></li>
+          <li><a href="index.html">England</a></li>
+          <li><a href="index.html">Paris</a></li>
+          <li><a href="index.html">Switzerland</a></li>
+          <li><a href="index.html">Norway</a></li>
+          <li><a href="contact.php">Contact</a></li>
           
 
         </ul>
