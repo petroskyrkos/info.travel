@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 06 Απρ 2021 στις 18:52:14
+-- Χρόνος δημιουργίας: 11 Απρ 2021 στις 20:24:12
 -- Έκδοση διακομιστή: 10.4.13-MariaDB
 -- Έκδοση PHP: 7.4.8
 
@@ -55,6 +55,29 @@ CREATE TABLE `country` (
 -- --------------------------------------------------------
 
 --
+-- Δομή πίνακα για τον πίνακα `google_login`
+--
+
+CREATE TABLE `google_login` (
+  `id` int(10) NOT NULL,
+  `f_name` varchar(10) CHARACTER SET utf16 NOT NULL,
+  `l_name` varchar(10) CHARACTER SET utf8 NOT NULL,
+  `avatar` varchar(500) NOT NULL,
+  `email` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `password` varchar(200) CHARACTER SET utf8 NOT NULL,
+  `session` varchar(200) CHARACTER SET utf8 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Άδειασμα δεδομένων του πίνακα `google_login`
+--
+
+INSERT INTO `google_login` (`id`, `f_name`, `l_name`, `avatar`, `email`, `password`, `session`) VALUES
+(1, 'petros', 'k.', 'https://lh5.googleusercontent.com/-zNQqjCMjPjA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckjCaV0fpd0XDzpoWP1u9pFnwQvJA/s96-c/photo.jpg', 'giaxabibis.petros@gmail.com', '2B9yz', 'C27A0CB7xx');
+
+-- --------------------------------------------------------
+
+--
 -- Δομή πίνακα για τον πίνακα `hotels`
 --
 
@@ -94,7 +117,8 @@ INSERT INTO `users` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `Last_Name`, `F
 (4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', '', ''),
 (5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', '', ''),
 (6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', '', ''),
-(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', '', '');
+(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', '', ''),
+(8, 'asdadasda', '$2y$10$brXBKnbGcTcMqeIe6YtbvurD2H6ThTHvnBIvYIfYcjaGyBPFj4eDa', 'asdadasda@gmail.com', '', '');
 
 -- --------------------------------------------------------
 
@@ -136,6 +160,12 @@ ALTER TABLE `country`
   ADD PRIMARY KEY (`C_id`);
 
 --
+-- Ευρετήρια για πίνακα `google_login`
+--
+ALTER TABLE `google_login`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Ευρετήρια για πίνακα `hotels`
 --
 ALTER TABLE `hotels`
@@ -170,6 +200,12 @@ ALTER TABLE `country`
   MODIFY `C_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT για πίνακα `google_login`
+--
+ALTER TABLE `google_login`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT για πίνακα `hotels`
 --
 ALTER TABLE `hotels`
@@ -179,7 +215,7 @@ ALTER TABLE `hotels`
 -- AUTO_INCREMENT για πίνακα `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT για πίνακα `user_profile`

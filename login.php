@@ -1,4 +1,6 @@
 <?php
+	require_once('config.php');
+	require_once('controller.Class.php');
 	session_start();
 ?>
 <!DOCTYPE html>
@@ -63,8 +65,10 @@
 							</form>
 						</div>
 					</div>
+					<button onclick="window.location = '<?php echo $login_url; ?>'" type="button" class="btn btn-danger">Login with Google</button>
+
 					<div class="footer">
-						Copyright &copy; 2021 &mdash; PetrElen
+						Copyright &copy; 2021 &mdash; PetrElen1
 					</div>
 				</div>
 			</div>
