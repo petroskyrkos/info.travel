@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Services - Sailor Bootstrap Template</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/assets/img/logot.jpg" rel="icon">
+  <link href="assets/assets/img/logot.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,50 +39,9 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo"><a href="index.html">Sailor</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav class="nav-menu d-none d-lg-block">
-
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li class="active"><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-
-      </nav><!-- .nav-menu -->
-
-      <a href="index.html" class="get-started-btn ml-auto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+ 
+  <?php include "header.php"; ?>
+<!-- End Header -->
 
   <main id="main">
 
@@ -103,55 +62,62 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-      <div class="container">
+    <div class="container">
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="icofont-computer"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-chart-bar-graph"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-image"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-settings"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-earth"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-tasks-alt"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-        </div>
+<div class="section-title">
+  <h2>Services</h2>
+  <p>The Services We Offer</p>
+</div>
 
-      </div>
-    </section><!-- End Services Section -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="icon-box">
+      <i class='bx bxs-plane-alt'></i>
+      <h4>Booking</a></h4>
+      <p>Plan your trip with everything you need for your trip.
+        Find the best hotels based on your interests with the best prices.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4 mt-md-0">
+    <div class="icon-box">
+    <i class='bx bx-news' ></i>
+      <h4>News</a></h4>
+      <p>Be always updated for the latest news wherever you are </p>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4 mt-md-0">
+    <div class="icon-box">
+    <i class='bx bx-health' ></i>
+      <h4>Covid-19</a></h4>
+      <p>We take care of your safety by giving you all the information about Covid-19 before you plan your trip </p>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4 mt-md-0">
+    <div class="icon-box">
+    <i class='bx bxs-phone'></i>
+      <h4>Service Numbers</a></h4>
+      <p>Find all the local phone numbers and information of the services of your destination.</p>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4 mt-md-0">
+    <div class="icon-box">
+    <i class='bx bxs-comment-dots' ></i>
+      <h4>Communication service</h4>
+      <p>We help you communicate with the locals of your destination for your best experience</p>
+    </div>
+  </div>
+  <div class="col-md-6 mt-4 mt-md-0">
+    <div class="icon-box">
+    <i class='bx bxs-info-circle'></i>
+      <h4>Policies</h4>
+      <p>Get prepared for your next destination knowing all the policies of the country</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">

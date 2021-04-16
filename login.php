@@ -9,7 +9,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>info.traveler</title>
+	<title>info.travel</title>
 	<link rel="shortcut icon" type="image" href="assets/img/logot.jpg">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/my-login.css">
@@ -58,14 +58,21 @@
 									<button type="submit" class="btn btn-primary btn-block"  name="login-submit" >
 										Login
 									</button>
+								
+									<button onclick="window.location = '<?php echo $login_url; ?>'" type="button" class="btn btn-primary btn-block">Login with Google</button>
+									
+									<button class="btn btn-primary btn-block" style="height:50px;" onclick="window.location = index.php" >Return to Homepage</button>	
 								</div>
+									
 								<div class="mt-4 text-center">
-									Don't have an account? <a href="register.html">Create One</a>
+									Don't have an account? <a href="register.php">Create One</a>
 								</div>
+								
+									
 							</form>
 						</div>
 					</div>
-					<button onclick="window.location = '<?php echo $login_url; ?>'" type="button" class="btn btn-danger">Login with Google</button>
+					
 
 					<div class="footer">
 						Copyright &copy; 2021 &mdash; PetrElen1

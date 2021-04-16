@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,7 +15,7 @@ body {
 
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #ffae00; /* Green */
   border: none;
   color: white;
   padding: 16px 32px;
@@ -48,6 +48,8 @@ a:hover {
   color: #ff9900;
   text-decoration: none;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -116,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  height: 140px;
+  height: 160px;
   width: 160px;
 }
 
@@ -1345,7 +1347,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ff7b00;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1365,7 +1367,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ff9100;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
