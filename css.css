@@ -1,3 +1,16 @@
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active{
-    background: #2395d9   !important;
+.portfolio #portfolio-flters li,.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active{
+
+    background: #71cbff   !important;
+    
+}
+
+.portfolio #portfolio-flters a{
+    color:rgb(255, 255, 255);
+    background: #71cbff   !important;
+
+}
+
+.portfolio #portfolio-flters li:hover a {
+    color:rgb(255, 145, 0);
+
 }

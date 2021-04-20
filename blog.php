@@ -40,23 +40,40 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo"><a href="index.html">Sailor</a></h1>
-     </div>
+             <?php include "header.php"; ?>
   </header><!-- End Header -->
 
   <main id="main">
+
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+ 
+</section><!-- End Breadcrumbs -->
+  <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*"><a href="spain.php">Hotels</li>
+              <li data-filter=".filter-app" class="filter-active"><a href="blog.php">(App) News</a></li>
+              <li data-filter=".filter-card">(Card) Covid 19</li>
+              <li data-filter=".filter-web">(Web) Services </li>              
+              <li data-filter=".filter-web">(Web) Translator </li>              
+              <li data-filter=".filter-web">(Web) Regulations </li>
+            </ul>
+          </div>
+        </div>
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs" >
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog</h2>
+          <h2>News</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Blog</li>
+            <li><a href="index.php">Home</a></li>
+            <li>News</li>
           </ol>
         </div>
 

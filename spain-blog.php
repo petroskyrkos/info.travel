@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Blog - Sailor Bootstrap Template</title>
+  <title>Portfolio - Sailor Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,6 +24,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="./css.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -40,23 +41,40 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo"><a href="index.html">Sailor</a></h1>
-     </div>
+             <?php include "header.php"; ?>
   </header><!-- End Header -->
 
   <main id="main">
 
+
+  <section id="breadcrumbs" class="breadcrumbs">
+      
+    </section><!-- End Breadcrumbs -->
+  
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                      <li data-filter="*" ><a href="spain.php">Hotels</a></li>
+                      <li data-filter=".filter-app" class="filter-active"><a href="spain-blog.php">News</a></li>
+                      <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
+                      <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
+                      <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
+                      <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
+                    </ul>
+                  </div>
+                </div>
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs" >
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog</h2>
+          <h2>News</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Blog</li>
+            <li><a href="index.php">Home</a></li>
+            <li>News</li>
           </ol>
         </div>
 
