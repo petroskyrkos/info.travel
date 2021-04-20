@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>Blog - Sailor Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,7 +24,6 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="./css.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -47,106 +46,32 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <!-- <nav class="nav-menu d-none d-lg-block">
-
-       
-
-      </nav> -->
       <?php include "header.php";
        ?>
-      <!-- .nav-menu -->
 
-      <a href="index.html" class="get-started-btn ml-auto">Get Started</a>
+      <a href="index.php" class="get-started-btn ml-auto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
 
   <main id="main">
 
-<br>
-
-
-    <!-- ======= Portfolio Section ======= -->
-    
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Covid</h2></h2>
-          <br>        
+          <h2>News</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Blog</li>
+          </ol>
         </div>
+
       </div>
     </section><!-- End Breadcrumbs -->
-    <p style="text-align: center; font-size: xx-large;" >Covid FREE!!</p>
 
-
-
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Hotels</h2></h2>            
-        </div>
-      </div>
-      
-    </section><!-- End Breadcrumbs -->
-    <br>
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <br>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="icons/hotels/Hotel De Madrid.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Hotel De Madrid</h4>
-                <p>Hotel De Madrid</p>
-                <div class="portfolio-links">
-                  <a href="./icons/hotels/Hotel De Madrid.jpeg" data-gall="portfolioGallery" class="venobox" title="Hotel De Madrid"><i class="bx bx-plus"></i></a>
-                  <a href="./icons/hotels/Hotel De Madrid-2.webp" data-gall="portfolioGallery" class="venobox" title="Hotel De Madrid"><i class="bx bx-plus"></i></a>
-                  <a href="spain-hotels.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="./icons/hotels/Hotel_Ritz_(Madrid).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Hotel Ritz, Madrid</h4>
-                <p>Hotel Ritz, Madrid</p>
-                <div class="portfolio-links">
-                  <a href="./icons/hotels/Hotel_Ritz_(Madrid).jpg" data-gall="portfolioGallery" class="venobox" title="Hotel Ritz, Madrid"><i class="bx bx-plus"></i></a>
-                  <a href="./icons/hotels/Hotel_Ritz_(Madrid)2.webp" data-gall="portfolioGallery" class="venobox" title="Hotel Ritz, Madrid"><i class="bx bx-plus"></i></a>
-                  <a href="spain-hotels.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>                  
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>News</h2></h2>    
-          <br>     
-        </div>
-      </div>
-    </section><!-- End Breadcrumbs -->
-    
-       
-
+    <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       <div class="container">
 
@@ -210,40 +135,142 @@
               </div>
 
             </article><!-- End blog entry -->
-          </div>            
+          </div>
+
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis tara kero pakla metaruna nedore stan.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Read More</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+          </div>
+
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Read More</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+          </div>
+
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-5.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Blanditiis dignissimos deleniti. Rerum iste et.</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Quidem et eum explicabo quia illo numquam nostrum corrupti provident. Quia aspernatur et et facere. Quisquam maiores natus nihil incidunt ipsum est optio eum maxime. Dignissimos vitae explicabo. Corrupti esse sed a a. Laborum optio reprehenderit quia dena per.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Read More</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+          </div>
+
+          <div class="col-lg-4  col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="assets/img/blog-6.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Debitis cupiditate saepe ex quam aut id. Consequatur dignissimos et id id.</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Modi dolor et placeat ut iure ad. Qui perferendis fugit quo et cumque facilis et debitis rerum. Repellendus animi qui eos. Unde perferendis et tempora Ratione porro omnis magn delata sera marto ned.
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">Read More</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->
+          </div>
+
         </div>
-      </div>
-    </section>
 
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Services</h2></h2>    
-          <br>     
+        <div class="blog-pagination" data-aos="fade-up">
+          <ul class="justify-content-center">
+            <li class="disabled"><i class="icofont-rounded-left"></i></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"><i class="icofont-rounded-right"></i></a></li>
+          </ul>
         </div>
-      </div>
-    </section><!-- End Breadcrumbs -->
 
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-    <div class="d-flex justify-content-between align-items-center">
-          <h2>Translator</h2></h2>    
-          <br>     
-        </div>
       </div>
-    </section><!-- End Breadcrumbs -->
-
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-    <div class="d-flex justify-content-between align-items-center">
-          <h2>Regulations</h2></h2>    
-          <br>     
-        </div>
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-   
+    </section><!-- End Blog Section -->
 
   </main><!-- End #main -->
 
@@ -324,17 +351,17 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="../assets/vendor/php-email-form/validate.js"></script>
-  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../assets/vendor/venobox/venobox.min.js"></script>
-  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
