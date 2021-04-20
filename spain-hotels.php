@@ -67,8 +67,7 @@
             <div class="member d-flex align-items-start">
               <div class="pic"><img src=".\icons\hotels\Hotel De Madrid.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
-              <h4>Hotel De Madrid</h4> 
-              <div >                                      
+              <h4>Hotel De Madrid</h4>                                    
                   <p><i class='bx bx-current-location' ></i>: Madrid </p>
                   <p><i class='bx bxs-star'></i>:3 </p>
                   <p><i class='bx bxs-bed' ></i>: 34 </p>
@@ -83,7 +82,6 @@
                
                 </div>   
               </div>
-            </div>
             <a class="get-started-btn ml-auto">Book Now</a>
           </div>
            
