@@ -225,6 +225,59 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class='bx bxs-plane-alt'></i>
+              <h4>Booking</a></h4>
+              <p>Plan your trip with everything you need for your trip.
+                Find the best hotels based on your interests with the best prices.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+            <i class='bx bx-news' ></i>
+              <h4>News</a></h4>
+              <p>Be always updated for the latest news wherever you are </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+            <i class='bx bx-health' ></i>
+              <h4>Covid-19</a></h4>
+              <p>We take care of your safety by giving you all the information about Covid-19 before you plan your trip </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+            <i class='bx bxs-phone'></i>
+              <h4>Service Numbers</a></h4>
+              <p>Find all the local phone numbers and information of the services of your destination.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+            <i class='bx bxs-comment-dots' ></i>
+              <h4>Communication service</h4>
+              <p>We help you communicate with the locals of your destination for your best experience</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+            <i class='bx bxs-info-circle'></i>
+              <h4>Policies</h4>
+              <p>Get prepared for your next destination knowing all the policies of the country</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
     <div class="d-flex justify-content-between align-items-center">
