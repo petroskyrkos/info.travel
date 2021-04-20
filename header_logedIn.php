@@ -8,7 +8,7 @@ echo 'Loged In1'
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sailor Bootstrap Template - Index</title>
+  <title>info.travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,34 +43,19 @@ echo 'Loged In1'
 
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
+          
 
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="spain.php">Spain</a></li>
+                  <li><a href="index.html">England</a></li>
+                  <li><a href="index.html">France</a></li>
+                  <li><a href="index.html">Switzerland</a></li>
+                  <li><a href="index.html">Norway</a></li>
+                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
 
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
 
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">User</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          </ul>
 
-        </ul>
-
-      </nav><!-- .nav-menu -->
+      </nav>
 
       <?php
                 if (isset($_SESSION['userId'])) {

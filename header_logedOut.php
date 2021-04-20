@@ -7,7 +7,7 @@ echo 'Loged out'
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sailor Bootstrap Template - Index</title>
+  <title>info.travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,34 +42,31 @@ echo 'Loged out'
 
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
+       
+              <li class="drop-down"><a href="#">Countries</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  
+                      <li><a href="about.html">Spain</a></li>
+                      
+                      <li><a href="team.html">England</a></li>
+                      <li><a href="testimonials.html">Paris</a></li>
+                      <li><a href="team.html">Switzerland</a></li>
+                      <li><a href="team.html">Norway</a></li>
                 </ul>
               </li>
-            </ul>
-          </li>
-          <li><a href="spain.php">Spain</a></li>
-          <li><a href="index.html">England</a></li>
-          <li><a href="index.html">Paris</a></li>
-          <li><a href="index.html">Switzerland</a></li>
-          <li><a href="index.html">Norway</a></li>
+            
+         
+          <li><a href="services.php">Services</a></li>
+          <li><a href="team.php">Our Team</a></li>
+          <li><a href="pricing.php">Pricing</a></li>
+          <li><a href="about.php">About Us</a></li> 
           <li><a href="contact.php">Contact</a></li>
           
-
+          
+         
         </ul>
 
-      </nav><!-- .nav-menu -->
+      </nav>
       
 
       <a href="login.php" class="get-started-btn ml-auto">Sign in</a>
