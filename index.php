@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sailor Bootstrap Template - Index</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/assets/img/logot.jpg" rel="icon">
+  <link href="assets/assets/img/logot.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -455,15 +455,10 @@
   //include "./login.php";  
 			    if (isset($_SESSION['userId'])) {
 			        echo '<p id="loggedIn">You are logged in! </p>';
+			        header('Location: ./index.php');
 			    } else {
 			        echo '<p id="loggedOut">You are logged out! </p>';
 			    }
-
-          if(!isset($_COOKIE['id'])){
-            echo 'Cookies: You are logged Out!';
-           }else{
-               echo 'Cookies: You are logged in!';
-           }
 			    ?>
   </footer><!-- End Footer -->
 
@@ -482,11 +477,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<script>
-  function imageClick(url) {
-    window.location = url;
-}
-</script>
 
 </body>
 
