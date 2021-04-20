@@ -2169,3 +2169,8 @@ section {
 #footer .credits a:hover {
   color: white;
 }
+
+.btn-holder{
+  position: absolute;
+  top: 12rem; 
+}

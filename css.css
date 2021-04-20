@@ -1,3 +1,20 @@
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active{
     background: #2395d9   !important;
 }
+
+.member-info{
+    column-count: 3;
+}
+
+/* .member-info.seperate-div-40{
+    width: 50%;
+    float: right;
+} */
+
+/* button.btn-holder{
+    position: absolute !important;;
+    top: 12rem !important;; 
+  }
+   */
+
+
