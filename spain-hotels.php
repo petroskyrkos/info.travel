@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>Team - Sailor Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,10 +24,10 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="./css.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="./css.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Sailor - v2.3.1
@@ -35,59 +35,56 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <?php include "header.php";
+       ?>
 </head>
-
 
 <body>
 
-  <!-- ======= Header ======= -->
- 
-  <?php include "header.php"; ?>
-
   <main id="main">
-
-  <section id="breadcrumbs" class="breadcrumbs">
-      
-    </section><!-- End Breadcrumbs -->
-  
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" ><a href="spain.php">Hotels</a></li>
-               <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
-               <li data-filter=".filter-card" class="filter-active"><a href="spain-covid.php">Covid 19</a></li>
-               <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
-               <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
-               <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
-             </ul>
-           </div>
-         </div>
-
-       
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
-       <div class="d-flex justify-content-between align-items-center">
-          <h2>COVID 19</h2>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Team</h2>
           <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>COVID19</li>
+            <li><a href="index.html">Home</a></li>
+            <li>Team</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section id="breadcrumbs" class="breadcrumbs">
+    <section id="team" class="team ">
+      <div class="container">
 
-    </section>
+        <div class="row">
 
+          <div class="col-lg-10">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src=".\icons\hotels\Hotel De Madrid.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+              <h4>Hotel De Madrid</h4>                                    
+                  <p><i class='bx bx-current-location' ></i>: Madrid </p>
+                  <p><i class='bx bxs-star'></i>:3 </p>
+                  <p><i class='bx bxs-bed' ></i>: 34 </p>
+                  <p><i class='bx bxs-dollar-circle'></i>: 300 /night</p>                
+                  <p><i class='bx bxs-door-open' >:</i></p>    
+                  <ul>
+                    <li>Breakfast</li>
+                    <li>Pool</li>
+                    <li>Gym</li>
+                    <li>Wifi</li>
+                  </ul>  
+               
+                </div>   
+              </div>
+            <a class="get-started-btn ml-auto">Book Now</a>
+          </div>
+           
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -178,9 +175,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
- 
-
-
 
 </body>
 

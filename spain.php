@@ -137,28 +137,39 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Team Section ======= -->
+  
+
     <section id="team" class="team ">
       <div class="container">
-     
+
         <div class="row">
 
-          <div class="col-lg-6">
+        <div class="col-lg-6">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src=".\icons\hotels\Hotel De Madrid.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
+              <h4>Hotel De Madrid</h4>                                    
+                  <p><i class='bx bx-current-location' ></i>: Madrid </p>
+                  <p><i class='bx bxs-star'></i>:3 </p>
+                  <p><i class='bx bxs-bed' ></i>: 34 </p>
+                  <p><i class='bx bxs-dollar-circle'></i>: 300 /night</p>                
+                  <p><i class='bx bxs-door-open' >:</i></p>    
+                  <ul>
+                    <li>Breakfast</li>
+                    <li>Pool</li>
+                    <li>Gym</li>
+                    <li>Wifi</li>
+                  </ul>  
+               
+                  <a class="get-started-btn ml-auto">Book Now</a>
+           
+            </div>
               </div>
             </div>
           </div>
+           
+
+        <!--
 
           <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start">
@@ -214,7 +225,7 @@
         </div>
 
       </div> 
-
+  -->
     </section>
 </main>
 
