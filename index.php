@@ -455,7 +455,7 @@
   //include "./login.php";  
 			    if (isset($_SESSION['userId'])) {
 			        echo '<p id="loggedIn">You are logged in! </p>';
-			        header('Location: ./index.php');
+			        
 			    } else {
 			        echo '<p id="loggedOut">You are logged out! </p>';
 			    }
