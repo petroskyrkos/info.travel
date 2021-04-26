@@ -40,9 +40,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
              <?php include "header.php"; ?>
-  </header><!-- End Header -->
+  
 
   <main id="main">
 
