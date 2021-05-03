@@ -40,39 +40,38 @@
 <body>
 
   <!-- ======= Header ======= -->
-             <?php include "header.php"; ?>
-  
+ 
+  <?php include "header.php"; ?>
+<!-- End Header -->
 
   <main id="main">
-
-
   <section id="breadcrumbs" class="breadcrumbs">
-      
-    </section><!-- End Breadcrumbs -->
-  
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row">
-                  <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                      <li data-filter="*" ><a href="spain.php">Hotels</a></li>
-                      <li data-filter=".filter-app" class="filter-active"><a href="spain-blog.php">News</a></li>
-                      <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
-                      <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
-                      <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
-                      <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
-                    </ul>
-                  </div>
-                </div>
+ 
+ </section><!-- End Breadcrumbs -->
+   <section id="portfolio" class="portfolio">
+       <div class="container">
+ 
+         <div class="row">
+           <div class="col-lg-12 d-flex justify-content-center">
+             <ul id="portfolio-flters">
+             <li data-filter="*" ><a href="spain.php">Hotels</a></li>               
+             <li data-filter=".filter-app" class="filter-active"><a href="spain-blog.php">News</a></li>
+               <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
+               <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
+               <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
+               <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
+             </ul>
+           </div>
+         </div>
+ 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs" >
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
           <h2>News</h2>
           <ol>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php" >Home</a></li>
             <li>News</li>
           </ol>
         </div>
@@ -80,6 +79,7 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+   
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       <div class="container">
@@ -280,6 +280,9 @@
 
       </div>
     </section><!-- End Blog Section -->
+
+  
+
 
   </main><!-- End #main -->
 

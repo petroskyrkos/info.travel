@@ -4,6 +4,7 @@ function loadCorona(){
 
 	const countryName = document.getElementById('countryName').value;
 
+
 	let url= "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?";
 	url += `country=${countryName}`;
 

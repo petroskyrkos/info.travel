@@ -28,7 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
   <!-- =======================================================
   * Template Name: Sailor - v2.3.1
   * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
@@ -84,9 +83,8 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section id="breadcrumbs" class="breadcrumbs">
+    <iframe style="height:500px; width:100%; scrollable:no" src="covid-spain-re.php" ></iframe>
 
-    </section>
 
   </main><!-- End #main -->
 
@@ -179,7 +177,24 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
  
+  <script type="text/javascript">
 
+fetch('https://corona.lmao.ninja/v2/countries/Spain')
+.then((response) => {
+  return response.json();
+})
+.then((data) => {
+  console.log(data);
+  document.getElementById("country").innerHTML = data.country;
+  document.getElementById("active").innerHTML = data.active.toLocaleString();
+  document.getElementById("cases").innerHTML = data.cases.toLocaleString();
+  document.getElementById("critical").innerHTML = data.critical.toLocaleString();
+  document.getElementById("death").innerHTML = data.deaths.toLocaleString();
+  document.getElementById("recovered").innerHTML = data.recovered.toLocaleString();
+  document.getElementById("tests").innerHTML = data.tests.toLocaleString();
+  document.getElementById("flag").src = data.countryInfo.flag;
+});
+</script>
 
 
 </body>

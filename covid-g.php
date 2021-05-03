@@ -37,6 +37,7 @@
   ======================================================== -->
 </head>
 
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -53,13 +54,14 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-      <div class="row">
+        <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-            <li data-filter="*" ><a href="spain.php">Hotels</a></li>               <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
-               <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
+              <li data-filter="*" ><a href="spain.php">Hotels</a></li>
+               <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
+               <li data-filter=".filter-card" class="filter-active"><a href="spain-covid.php">Covid 19</a></li>
                <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
-               <li data-filter=".filter-web" class="filter-active"><a href="spain-trans.php">Translator </a></li>              
+               <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
                <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
              </ul>
            </div>
@@ -72,23 +74,38 @@
       <div class="container">
 
        <div class="d-flex justify-content-between align-items-center">
-          <h2>Translations</h2>
+          <h2>COVID 19</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>Translations</li>
+            <li>COVID19</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section id="breadcrumbs" class="breadcrumbs">
+  
+    
+    <div class="container">
+        <div class="row justify-content-center">
+        <br>
+        <p>View the Covid-19 cases of the country you want to travel.</p>
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">Covid-19 Tracker</div>
+                    
+                    <div class="card-body">
+                    <input type="text" id="countryName" class="form-control" placeholder="Country">
+                    <button type="submit" id="submitBtn" class="btn btn-primary btn-block"  name="submit" >Search</button>
+                    <div class="row" id="result"> </div>
+                    </div>
+                </div>
+            </div>
 
-    </section>
+        </div>
 
-    <iframe style="height:100%; width:100%; scrollable:no" class="w" src="https://translate.google.com/?sl=en&tl=es&op=translate" ></iframe>
-
-
+    </div>    
+<script src="./covid.js"></script>
 
   </main><!-- End #main -->
 

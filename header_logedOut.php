@@ -57,9 +57,10 @@ echo 'Loged out'
             
          
           <li><a href="services.php">Services</a></li>
+          <li><a href="covid-g.php">Covid info</a></li>
           <li><a href="team.php">Our Team</a></li>
           <li><a href="pricing.php">Pricing</a></li>
-          <li><a href="about.php">About Us</a></li> 
+          <!-- <li><a href="about.php">About Us</a></li> -->
           <li><a href="contact.php">Contact</a></li>
           
           
