@@ -85,7 +85,124 @@
 
     <iframe style="height:500px; width:100%; scrollable:no" src="covid-spain-re.php" ></iframe>
 
+   
 
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Restrictions</h2>
+      <p>Containment measures and restrictions</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="nav nav-tabs flex-column">
+          <li class="nav-item">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-1">Notices of interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-2">Do i have coronavirus?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-3">What to do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-4">Vaccination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-5">Telephone information</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-9 mt-4 mt-lg-0">
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3></h3>
+                <p class="font-italic">
+                <ul>
+                 <li>Night mobility and the movement of people are limited between 11 p.m. and 6 a.m. throughout the region</p></li>
+                  <li>Meetings of non-cohabitants at home are prohibited unless it is for the care of third parties</li>
+                  <li>All commercial activity premises of any kind must close before 10 p.m. and cannot open before 6 a.m.</li>
+                  <li>Establishments hotels and restaurants must close, at most, at 23:00 hours , can not in any case accept new customers to consume on site from 22:00 hours.</li>
+                  <li>Home delivery services can be made up to 24 hours.</li>
+                  <li>Maximum of 4 people per table inside hotels and restaurants and 6 people per table on terraces. The use of masks is mandatory except at the specific time of consumption of food and beverages.</li>
+                  <li>Only pharmacies, medical establishments, veterinarians, gas stations and those that provide essential and unavoidable services can open at night.</li>
+                </ul>
+                
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/features-3.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>If you currently have symptoms of acute respiratory infection:</h3>
+                <ul>
+                  <li>fever (above 37.5 degrees)</li>
+                  <li>dry cough</li>
+                  <li>feeling short of breath</li>
+                  <li>Other atypical symptoms may occur, such as a sore throat, loss of smell or taste, muscle aches, diarrhea, chest pain, or headache</li>
+                </ul>
+              
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/features-1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+              <h3>If you have a coronavirus infection:</h3>
+                <ul>
+                  <li><b>Stay at home and contact your health center by phone</b> , through the usual appointment phone, where they will give you the necessary instructions</li>
+                  <li><b>Avoid contact with other people,</B> as far as possible, within your home and take extreme measures of prevention and hygiene (hand washing, disinfecting surfaces, etc.) that you can find <a href="https://www.comunidad.madrid/servicios/salud/covid-19-prevencion-consejos-ciudadania#videos" target="_blank">in the advice videos on this website .</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/features-4.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Vaccination against COVID-19 in the Community of Madrid</h3>
+                <ul>
+                  <p>Getting vaccinated not only protects us but can also protect the people around us , especially those with a higher risk of developing serious clinical pictures of COVID-19. Vaccination cuts the chain of transmission to third parties.</p>
+                  <p>Let us remember that the use of masks , the maintenance of social distance , hand hygiene and the ventilation of closed spaces are still necessary practices to reduce the probability of contagion and spread of the virus.</p>
+                  
+                  <button type="button" class="btn btn-outline-warning"><a href="https://www.comunidad.madrid/servicios/salud/vacunacion-frente-coronavirus-comunidad-madrid" target="_blank">See more</a></button>
+                </ul>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/features-5.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>900 102 112</h3>
+                <p>Information telephone about the coronavirus with the capacity to refer possible cases, directly, to the Coordination Table of SUMMA 112, who carries out the health care of the call, and where appropriate, if necessary, mobilize health resources according to the symptoms that the patient presents.</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/features-2.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Features Section -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

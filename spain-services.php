@@ -87,9 +87,9 @@
   <div class="col-md-6">
     <div class="icon-box">
       <i class='bx bxs-plane-alt'></i>
-      <h4>Booking</a></h4>
-      <p>Plan your trip with everything you need for your trip.
-        Find the best hotels based on your interests with the best prices.
+      <a href ="spain-hospitals.html"><h4>Hospitals</h4></a>
+      <p>
+        Find the best hospitals near you.
       </p>
     </div>
   </div>

@@ -88,76 +88,71 @@
 
           <div class="col-lg-6" >
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <img src="assets/img/testimonials/under18.png" class="testimonial-img" alt="">
+              <h3>Unaccompanied minors</h3>
+              <h4>  </h4>
               <p>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Spanish law defines anyone under 18 to be a minor. Any unaccompanied minors that come to the attention of the Spanish authorities are judged to be vulnerable and may be taken into a minors centre until a parent or guardian can be found.
               </p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="testimonial-item mt-4 mt-lg-0">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              <img src="assets/img/testimonials/id.png" class="testimonial-img" alt="">
+              <h3>Providing ID</h3>
+              <h4></h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              You must provide photo ID if requested by a police officer. 
+              This includes the Guardia Civil and national, regional and local police forces. 
+              The police have the right to hold you at a police station until your identity is confirmed.
+                
               </p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
+              <img src="assets/img/testimonials/alcohol.png" class="testimonial-img" alt="">
+              <h3>Drugs and alcohol</h3>
+              <h4></h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              Possession of even a small quantity of drugs can lead to arrest and detention. 
+              Possession of large quantities will probably result in prosecution and a prison sentence if convicted.
+              There are strict controls on drinking and sexual activity in public places, including beaches.
+            </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="testimonial-item mt-4">
+            <img src="assets/img/testimonials/smoke.png" class="testimonial-img" alt="">
+              <h3>Smoking</h3>
+              <h4></h4>
+              <p>
+              It is illegal to smoke in indoor public places i.e. bars, restaurants, airports, shopping centres etc.  Smoking is also illegal outside hospitals, schools and children’s play parks.  Fines for breaking laws range from €30 to €600 and are being strictly enforced. 
+              </p> 
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="testimonial-item mt-4">
+            <img src="assets/img/testimonials/dress.jpg" class="testimonial-img" alt="">
+              <h3>Dress</h3>
+              <h4></h4>
+              <p>
+              In some parts of Spain it’s against the law to be in the street wearing only a bikini or swimming shorts. Being bare-chested has also been banned in some areas of Spain.Some public authorities in Spain don’t allow the burka or niqab to be worn in their buildings.
               </p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
+              <img src="assets/img/testimonials/hotels.png" class="testimonial-img" alt="">
+              <h3>Hotel check</h3>
+              <h4></h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-              <h3>Emily Harison</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Eius ipsam praesentium dolor quaerat inventore rerum odio. Quos laudantium adipisci eius. Accusamus qui iste cupiditate sed temporibus est aspernatur. Sequi officiis ea et quia quidem.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              Hotels have a legal duty to register the passport details of tourists when they check-in. Wait until the hotel staff have registered your passport details or taken a photocopy of your passport, rather than leaving it in reception to collect later. It may help to take your own photocopy.
               </p>
             </div>
           </div>
