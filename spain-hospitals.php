@@ -76,7 +76,8 @@
           <h2>Services</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>Services</li>
+            <li><a href="spain-services.php">Services</a></li>
+            <li>Hospitals</li>
           </ol>
         </div>
 
@@ -84,17 +85,106 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-    <div class="container">
+    <section >
 
 <div class="section-title">
   <h2>Hospitals</h2>
   <p>Hospitals in Madrid,Spain</p>
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.6158695324784!2d-3.614021859382767!3d40.48376240718544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422e6eb8bea26d%3A0xbc2ac3b5148c41a0!2sHospital%20Isabel%20Zendal!5e0!3m2!1sel!2sgr!4v1620120477642!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-    
+
+
+<iframe src="test-g.php" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<section id="team" class="team ">
+      <div class="container">
+
+        <div class="row">
+
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/hospitals/1.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>HM Hospital Universitario Madrid</h4>
+        <span><i class='bx bxs-phone'>+34901088212</i></span>
+        <p><i class='bx bxs-map' >Pl. del Conde del Valle de Súchil, 16, 28015 Madrid, Spain</i></p>
+        <br>
+        <a href="https://www.hmmadrid.com/" target="_blank">
+        <button type="button" class="btn btn-warning" >Visit site</button></a>
+        <a href="go-hospit.php" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/hospitals/2.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>Hospital de La Princesa</h4>
+        <span><i class='bx bxs-phone'>+34915202200</i></span>
+        <p><i class='bx bxs-map' >Calle de Diego de León, 62, 28006 Madrid, Spain</i></p>
+        <br>
+        <a href="https://www.comunidad.madrid/hospital/laprincesa/" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/hospitals/3.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>Gregorio Marañón Hospital</h4>
+        <span><i class='bx bxs-phone'>+34915868000</i></span>
+        <p><i class='bx bxs-map' >Calle del Dr. Esquerdo, 46, 28007 Madrid, Spain</i></p>
+        <br>
+        
+          <br>
+        <a href="https://www.comunidad.madrid/hospital/gregoriomaranon/" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/hospitals/4.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>Hospital Carlos III</h4>
+        <span><i class='bx bxs-phone'>+34914532500</i></span>
+        <p><i class='bx bxs-map' >Calle Sinesio Delgado, 10, 28029 Madrid, Spain</i></p>
+        <br>
+       
+        <a href="https://www.comunidad.madrid/centros/hospital-carlos-iii" target="_blank">
+        <button type="button" class="btn btn-warning"> See more </button> </a></div>
+              
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/hospitals/5.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>Central Hospital of the Red Cross San José and Santa Adela</h4>
+        <span><i class='bx bxs-phone'>+34914538300</i></span>
+        <p><i class='bx bxs-map' >Av. de la Reina Victoria, 22-24, 28003 Madrid, Spain</i></p>
+        <br>
+       
+        <a href="https://www.esmadrid.com/en/tourist-information/hospital-de-la-cruz-roja-san-jose-y-santa-adela" target="_blank">
+        <button type="button" class="btn btn-warning"> See more </button> </a></div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
 </section>
 
     </section><!-- End Features Section -->
@@ -199,6 +289,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+ 
 </body>
 
 </html>

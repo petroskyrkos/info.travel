@@ -41,6 +41,7 @@ body {
 }
 
 
+
 a {
   color: #ff9900;
 }
@@ -128,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 12px 0;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -963,7 +965,8 @@ section {
   border-radius: 4px;
   width: 32px;
   height: 32px;
-  background: #8795a4;
+  background: #ffbb00;
+
 }
 
 .team .member .social a i {

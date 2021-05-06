@@ -64,7 +64,6 @@
               <li><strong>Name</strong>:Spain</li>
               <li><strong>Capital</strong>: Madrid</li>
               <li><strong>Continent</strong>: Europe</li>
-              <li><strong>Info</strong>: <a href="#">www.example.com</a></li>
               <li><strong>National language</strong>: Spanish</li>	
             </ul>
 
@@ -72,7 +71,7 @@
             Spain is a surprise to those who have the image of having to fight for towel space at one of its crowded beaches or sipping sangria while watching a bull fight or flamenco. From the ancient monuments left by the Romans and Moors, the medieval castles of the interior, the white villages in inland Andalucía or the vibrant cities of Barcelona and Madrid, there is a great mixture of cultural attractions in Spain.
             </p>
 
-            <a href="#about" class="button button1">Read More</a>
+            <a href="spain.php" target="_blank" class="button button1">Read More</a>
           </div>
 
         </div>

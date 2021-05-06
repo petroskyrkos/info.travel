@@ -35,7 +35,31 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
+
 </head>
+
+
 
 <body>
 
@@ -82,13 +106,79 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section id="breadcrumbs" class="breadcrumbs">
+<br>
 
-    </section>
+    <iframe width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy" src="spain-translator.html" ></iframe>
 
-    <iframe style="height:100%; width:100%; scrollable:no" class="w" src="https://translate.google.com/?sl=en&tl=es&op=translate" ></iframe>
+    <div>
 
 
+<div class="row">
+  <div class="column" >
+        <h1>Spanish Greetings</h1>
+        <ul>
+          <li>Hola – “Hello”</li>
+          <li>¿Qué tal? – “How are you?”</li>
+          <li>¿Qué pasa? – “What’s up?”</li>
+          <li>¿Cómo te va? – “How’re you doing?”</li>
+          <li>Bien – “Good”</li>
+          <li>Muy bien – “Very good”</li>
+          <li>Así así – “So-so”</li>
+          <li>¿Cómo te llamas? – “What’s your name?”</li>
+
+        </ul>
+  </div>
+  <div class="column">
+        <h1>Polite Phrases in Spanish
+        </h1>
+        <ul>
+          <li>Gracias – “Thank you”</li>
+          <li>De nada – “You’re welcome”</li>
+          <li>No hay de qué – “No problem”</li>
+          <li>Disculpe – “Excuse me”</li>
+          <li>Lo siento – “I’m sorry”</li>
+        
+
+
+        </ul>
+  </div>
+
+</div>
+
+<div>
+
+
+<div class="row">
+  <div class="column" >
+        <h1>Common Questions in Spanish</h1>
+        <ul>
+          <li>¿Cuánto cuesta? – “How much is this?”</li>
+          <li>¿Dónde está el baño? – “Where’s the bathroom?”</li>
+          <li>¿Qué hora es? – “What time is it?”</li>
+          <li>¿Pasa algo? – “Is something wrong?”</li>
+          <li>¿Es esto correcto? – “Is this right?”</li>
+          <li>¿Me puede ayudar con esto? – “Can you help me with this?”</li>
+          <li>¿Puedes traerme … por favor?” – “Can you bring me … please?”</li>
+          <li>¿Puedo entrar? – “Can I come in?”</li>
+
+        </ul>
+  </div>
+  <div class="column">
+        <h1>Exclamations, Celebrations, and Well Wishes
+        </h1>
+        <ul>
+          <li>¡Feliz cumpleaños! – “Happy birthday!”</li>
+          <li>Felicitaciones – “Congratulations”</li>
+          <li>¡Bien hecho! – “Well done!”</li>
+          <li>¡Salud! – “Cheers!”</li>
+          <li>Cuídate – “Take care”</li>
+        
+
+
+        </ul>
+  </div>
+
+</div>
 
   </main><!-- End #main -->
 

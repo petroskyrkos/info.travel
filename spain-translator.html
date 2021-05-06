@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Translator App</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="./css.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <div class="container">
+      
+
+      <textarea
+        placeholder="Write text in English to translate to Spanish"
+        id="myText" value=""
+      ></textarea>
+      
+      <br>
+      <center><button onclick="myFunction()" class="btn1">Translate</button></center>
+      <br>
+      <p id="para"><b>Translated text will appear here</b></p>
+      
+        <textarea id="output" value=""></textarea>
+      
+    </div>
+  
+<script>
+  function myFunction() {
+  if(document.getElementById("myText").value == "Hello"){
+    document.getElementById("output").value = "Hola";}
+    else
+    if(document.getElementById("myText").value == "How are you?"){
+    document.getElementById("output").value = "¿Qué tal?";}
+    else
+    if(document.getElementById("myText").value == "What’s up?"){
+    document.getElementById("output").value = "¿Qué pasa?";}
+    else
+    if(document.getElementById("myText").value == "See you later"){
+    document.getElementById("output").value = "Hasta luego";}
+
+    else {
+      document.getElementById("output").value = "Cannot recognize word/phrase";
+    }
+  } 
+  </script>
+ 
+
+
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap");
+:root {
+  --turtle-gray: #f59e0b;
+}
+body {
+ 
+  margin: 0px;
+}
+/* html {
+  padding: -2rem -2rem;
+} */
+textarea {
+  height: 5vh;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
+}
+
+.btn1 {
+  background-color: #ffae00; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#output {
+  height: 5vh;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.nav-bar {
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: var(--turtle-gray);
+  max-width: 100%;
+  height: 5rem;
+  padding-top: 2rem;
+  border-bottom-left-radius: 1rem;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 20rem;
+}
+.container #btn {
+  background-color: var(--turtle-gray);
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 2rem 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+#para {
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  padding: 0.5rem 1rem;
+  /* margin: 0.5rem 1rem; */
+  text-decoration: none;
+}
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+
+    </style>
+  </body>
+</html>
