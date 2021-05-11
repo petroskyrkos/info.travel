@@ -11,8 +11,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logots.png" rel="icon">
+  <link href="assets/img/logots.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -67,7 +67,7 @@
       <div class="container">
 
         <div>
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1799.729594760129!2d22.802482669582815!3d40.65694879995849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a825d003b15997%3A0x17b4aae628ae3ec9!2zzpTOmc6gzpHOlSDOo86vzr3OtM6_z4U!5e0!3m2!1sel!2sgr!4v1620455279893!5m2!1sel!2sgr" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
         <div class="row mt-5">
@@ -77,13 +77,13 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Thessaloniki,Greece </p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>infotraveler@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -142,19 +142,18 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Sailor</h3>
+              <h3>Info.travel</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
+                Thessaloniki <br>
+                Greece<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Email:</strong> infotraveler@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/petroskyrkos/info.travel" target="_blank" class="linkedin"><i class='bx bxl-github' ></i></a>
               </div>
             </div>
           </div>
@@ -162,28 +161,29 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="covid-g.php">Covid19 info</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> Covid-19</a></li>
+              <li><i class="bx bx-chevron-right"></i> Service Numbers</a></li>
+              <li><i class="bx bx-chevron-right"></i> Policies</a></li>
+              <li><i class="bx bx-chevron-right"></i> Communication Info</a></li>
+              <li><i class="bx bx-chevron-right"></i> Book your trip</a></li>
+              <li><i class="bx bx-chevron-right"></i> News</a></li>
             </ul>
           </div>
-
+         
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Subscribe to our newsletter and stay updated on the latest developments and special offers!</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -196,16 +196,26 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Info.travel</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://github.com/petroskyrkos/info.travel">PetrElen</a>
       </div>
     </div>
+
+    <?php    
+  //include "./login.php";  
+			    if (isset($_SESSION['userId'])) {
+			        echo '<p id="loggedIn">You are logged in! </p>';
+			        header('Location: ./index.php');
+			    } else {
+			        echo '<p id="loggedOut">You are logged out! </p>';
+			    }
+			    ?>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
@@ -222,8 +232,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
- 
-
 
 
 </body>

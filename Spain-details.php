@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logot.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logots.png" rel="icon">
+  <link href="assets/img/logots.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -71,7 +71,7 @@
             Spain is a surprise to those who have the image of having to fight for towel space at one of its crowded beaches or sipping sangria while watching a bull fight or flamenco. From the ancient monuments left by the Romans and Moors, the medieval castles of the interior, the white villages in inland Andalucía or the vibrant cities of Barcelona and Madrid, there is a great mixture of cultural attractions in Spain.
             </p>
 
-            <a href="spain.php" target="_blank" class="button button1">Read More</a>
+            <a href="spain-home.php" target="_blank" class="button button1">Read More</a>
           </div>
 
         </div>

@@ -12,6 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  position: absolute; 
+
 }
 
 
@@ -797,8 +799,8 @@ section {
 
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active a {
-  color: #fff;
-  background: #55d6f6f6;
+  color: rgb(235, 129, 0);
+  background: #00c8fff6;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1881,8 +1883,8 @@ section {
 }
 
 .blog .sidebar {
-  padding: 30px;
-  margin: 0 0 60px 20px;
+  padding: 3px;
+  margin: 0 0 40px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 

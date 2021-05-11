@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logots.png" rel="icon">
+  <link href="assets/img/logots.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -55,7 +55,8 @@
 
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
+          <ul id="portfolio-flters">             
+            <li data-filter="*"><a href="spain-home.php">Guide</a></li>    
             <li data-filter="*" ><a href="spain.php">Hotels</a></li>
              <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
              <li data-filter=".filter-card" ><a href="spain-covid.php">Covid 19</a></li>
@@ -203,7 +204,7 @@
                 Thessaloniki <br>
                 Greece<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> infotravele@gmail.com<br>
+                <strong>Email:</strong> infotraveler@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

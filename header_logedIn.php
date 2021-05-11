@@ -13,8 +13,8 @@ echo 'Loged In1'
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logots.png" rel="icon">
+  <link href="assets/img/logots.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -42,18 +42,30 @@ echo 'Loged In1'
       <nav class="nav-menu d-none d-lg-block">
 
         <ul>
-          <li class="active"><a href="index.php">Home</a></li>
+               <li><a href="index.php">Home</a></li>
+               <li><a href="profile.php">Profile</a></li>
+              <li class="drop-down"><a href="#">Countries</a>
+                <ul>
+                  
+                      <li><a href="spain-home.php">Spain</a></li>
+                      
+                      <li><a href="team.html">England</a></li>
+                      <li><a href="testimonials.html">Paris</a></li>
+                      <li><a href="team.html">Switzerland</a></li>
+                      <li><a href="team.html">Norway</a></li>
+                </ul>
+              </li>
+            
           
+          <!--<li><a href="services.php">Services</a></li>-->
+          <li><a href="covid-g.php">Covid info</a></li>
+          <li><a href="team.php">Our Team</a></li>
+          <!--<li><a href="pricing.php">Pricing</a></li>-->
+          <!-- <li><a href="about.php">About Us</a></li> -->
+          <li><a href="contact.php">Contact</a></li>
+   
+   </ul>
 
-                  <li><a href="spain.php">Spain</a></li>
-                  <li><a href="index.html">England</a></li>
-                  <li><a href="index.html">France</a></li>
-                  <li><a href="index.html">Switzerland</a></li>
-                  <li><a href="index.html">Norway</a></li>
-                  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-
-
-          </ul>
 
       </nav>
 
@@ -66,6 +78,7 @@ echo 'Loged In1'
 
                 if(isset($_COOKIE['id'])) {
                   echo '<form action="includes/logout.inc.php" method="post"  >
+                 
                   <button class="get-started-btn ml-auto"  type="submit" name="logout-submit" id="logout">Logout</button>
               </form>';
               }

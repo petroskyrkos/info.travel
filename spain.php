@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logots.png" rel="icon">
+  <link href="assets/img/logots.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -110,7 +110,8 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*"  class="filter-active" ><a href="spain.php">Hotels</a></li>               
+              <li data-filter="*" ><a href="spain-home.php">Guide</a></li>
+              <li data-filter="*" class="filter-active"><a href="spain.php">Hotels</a></li>               
               <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
                <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
                <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
@@ -229,8 +230,8 @@
     </section>
 </main>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -256,11 +257,11 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="covid-g.php">Covid19 info</a></li>
             </ul>
           </div>
 
@@ -311,7 +312,7 @@
 			        echo '<p id="loggedOut">You are logged out! </p>';
 			    }
 			    ?>
-  </footer>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -327,6 +328,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
