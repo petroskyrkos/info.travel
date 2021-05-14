@@ -144,7 +144,7 @@
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/openm.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
@@ -253,7 +253,7 @@
                 <p>Travel to England</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/England.jpg" data-gall="portfolioGallery" class="venobox" title="England"><i class='bx bx-expand-alt'></i></a>
-                  <a href="England-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="England Details"><i class='bx bx-play' ></i></a>
+                  <a href="details/England-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="England Details"><i class='bx bx-play' ></i></a>
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@
                 <p>Travel to Spain</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/spain.png" data-gall="portfolioGallery" class="venobox" title="Spain"><i class='bx bx-expand-alt'></i></a>
-                  <a href="Spain-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Spain Details"><i class='bx bx-play' ></i></a>
+                  <a href="details/Spain-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Spain Details"><i class='bx bx-play' ></i></a>
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@
                 <p>Travel to France</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/france.jpg" data-gall="portfolioGallery" class="venobox" title="France"><i class='bx bx-expand-alt'></i></a>
-                  <a href="France-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="France Details"><i class='bx bx-play' ></i></a>
+                  <a href="detailsFrance-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="France Details"><i class='bx bx-play' ></i></a>
                 </div>
               </div>
             </div>
@@ -295,7 +295,7 @@
                 <p>Travel to Switzerland</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/swit.jpg" data-gall="portfolioGallery" class="venobox" title="Switzerland"><i class='bx bx-expand-alt'></i></a>
-                  <a href="Switcherland-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Switzerland Details"><i class='bx bx-play' ></i></a>
+                  <a href="detailsSwitcherland-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Switzerland Details"><i class='bx bx-play' ></i></a>
                 </div>
               </div>
             </div>
@@ -309,7 +309,7 @@
                 <p>Travel to Norway</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/Norway.jpg" data-gall="portfolioGallery" class="venobox" title="Norway"><i class='bx bx-expand-alt'></i></a>
-                  <a href="Norway-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Norway Details"><i class='bx bx-play' ></i></a>
+                  <a href="detailsNorway-details.php" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Norway Details"><i class='bx bx-play' ></i></a>
                 </div>
               </div>
             </div>

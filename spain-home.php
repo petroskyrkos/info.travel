@@ -46,7 +46,7 @@ $temp_weather = $weather_data['weather'][0]['main'];
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="./css.css" rel="stylesheet">
-  <link href="./weather.css" rel="stylesheet">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -61,104 +61,7 @@ body,h1,h2,h3,h4,h5,h6,h8{font-family: "Karma", sans-serif}
 h8{
   font-size:40px;
 }
-
-.weather
-    {  
-        display: flex;
-        flex-flow: column wrap;
-        box-shadow: 0px 1px 10px 0px #cfcfcf;
-        overflow: hidden;
-    }
-
-        .weather .current
-        {
-            display: flex;
-            flex-flow: row wrap;
-            background-image: url("assets/img/weather.jpg");
-            background-repeat: no-repeat;
-            color: white;
-            padding: 20px;
-            text-shadow: 1px 1px #F68D2E;
-            background-size: 100% 300px;
-
-        }
-
-
-            .weather .current .info
-            {
-                display: flex;
-                flex-flow: column wrap;
-                justify-content: space-around;
-                flex-grow: 2;
-            }
-
-                .weather .current .info .city
-                {
-                    font-size: 26px;
-                }
-
-                .weather .current .info .temp
-                {
-                    font-size: 56px;
-                }
-
-                .weather .current .info .wind
-                {
-                    font-size: 24px;
-                }
-
-            .weather .current .icon
-            {   
-                text-align: center;
-                font-size: 64px;
-                flex-grow: 1;
-            }
-
-        .weather .future
-        {
-            display: flex;
-            flex-flow: row nowrap;
-        }
-
-            .weather .future .day
-            {
-                flex-grow: 1;
-                text-align: center;
-                cursor: pointer;
-                color: #fff;
-                background-color: #F68D2E
-            }
-
-
-                .weather .future .day:hover
-                {
-                    color: #fff;
-                    background-color: #F68D2E;
-                }
-
-                .weather .future .day h3
-                {
-                    
-                    margin-left:10px;
-                }
-
-                .weather .future .day p
-                {
-                    font-size: 28px;
-                }
-
-                .bottomright {
-                  position: fixed;
-                  left: 0px; 
-                  bottom: 0px;
-                  width:18%;
-                  
-                }
-
-                
-                
-
-
+ 
 </style>
 <body>
 
@@ -188,14 +91,14 @@ h8{
  
     <!-- ======= Breadcrumbs ======= -->
    
-    <hr id="about">
-
+  
+    <hr>
 <!-- About Section -->
 <div class="w3-container w3-padding-32 w3-center">  
   <h3>SPAIN TRAVEL GUIDE</h3><br>
   <img src="assets/img/services/main.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
   <div class="w3-padding-32">
-    <h4><b>Welcome to Madrid,Spain!</b></h4>
+    <h4><b>Travel to Madrid,Spain!</b></h4>
     <h6><i>THE CAPITAL CITY WITH A THOUSAND OPTIONS</i></h6>
     <p>Madrid, cheerful and vibrant at all hours, is famous for being an open city with all kinds of people from anywhere in the world.</p>
     <p>In addition to its famous museums, busy streets dotted with all kinds of shops, restaurants with world cuisine or unbeatable nightlife, Madrid will surprise you with its charming, tranquil historic spots, with traditional and family-run century-old bars where friends meet up for a drink, all kinds of neighbourhoods, and cultural centres that offer an alternative type of tourism. Madrid has an authenticity that is hard to match. It is welcoming and diverse. Madrid is, without a doubt, one of Europe’s most interesting cities. </p>
@@ -244,7 +147,7 @@ h8{
 </div>
  
 
-    <hr>
+   
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1400px;margin-top:100px;padding:6px;">
@@ -279,7 +182,7 @@ h8{
                 . Find the best places to visit such as museums,sights and others for your best experience in Madrid.
                 </p>
                 <div class="read-more">
-                  <a href="blog1.php">Read More</a>
+                  <a href="blog-sights.php">Read More</a>
                 </div>
               </div>
 

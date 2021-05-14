@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,28 +42,33 @@
   <!-- ======= Header ======= -->
  
   <?php include "header.php"; ?>
-<!-- End Header -->
 
-  <main id="main">
-  <section id="breadcrumbs" class="breadcrumbs">
- 
- </section><!-- End Breadcrumbs -->
-   <section id="portfolio" class="portfolio">
-       <div class="container">
- 
-         <div class="row">
-           <div class="col-lg-12 d-flex justify-content-center">
-             <ul id="portfolio-flters">
-             <li data-filter="*"><a href="spain-home.php">Guide</a></li>
-             <li data-filter="*" ><a href="spain.php">Hotels</a></li>               <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
-               <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
-               <li data-filter=".filter-web" class="filter-active"><a href="spain-services.php">Services </a></li>              
-               <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
-               <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
-             </ul>
-           </div>
+<main id="main">
+
+<section id="breadcrumbs" class="breadcrumbs">
+    
+  </section><!-- End Breadcrumbs -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">             
+            <li data-filter="*"><a href="spain-home.php">Guide</a></li>    
+            <li data-filter="*" ><a href="spain.php">Hotels</a></li>
+             <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
+             <li data-filter=".filter-card" ><a href="spain-covid.php">Covid 19</a></li>
+             <li data-filter=".filter-web" class="filter-active"><a href="spain-services.php">Services </a></li>              
+             <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
+             <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
+           </ul>
          </div>
- 
+       </div>
+
+     
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
@@ -71,8 +76,9 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Services</h2>
           <ol>
-            <li><a href="index.php" >Home</a></li>
-            <li>Services</li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="spain-services.php">Services</a></li>
+            <li>Police Stations</li>
           </ol>
         </div>
 
@@ -80,69 +86,93 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-    <div class="container">
+    <section >
 
-
-<div class="row">
-  <div class="col-md-6">
-    <div class="icon-box">
-    <i class='bx bxs-clinic'></i>
-      <a href ="spain-hospitals.php" ><h4>Hospitals</h4></a>
-      <p>
-        Find the best hospitals in Madrid.
-      </p>
-      <a href="spain-hospitals.php" class="get-started-btn ml-auto">See more</a>
-
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mt-md-0">
-    <div class="icon-box">
-    <i class='bx bxs-shield-alt-2' ></i>
-      <h4>Police Stations</a></h4>
-      <p>
-        Find the best police stations in Madrid.
-      </p>
-      <a href="spain-police.php" class="get-started-btn ml-auto">See more</a>
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mt-md-0">
-    <div class="icon-box">
-    <i class='bx bxs-dollar-circle'></i>
-      <h4>Banks</a></h4>
-      <p>Find the biggest Banks in Madrid</p>
-      <a href="spain-hospitals.php" class="get-started-btn ml-auto">See more</a>
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mt-md-0">
-    <div class="icon-box">
-    <i class='bx bxs-credit-card-front'></i>
-      <h4>ATMs</a></h4>
-      <p>Find all the ATMs in Madrid</p>
-      <a href="spain-hospitals.php" class="get-started-btn ml-auto">See more</a>
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mt-md-0">
-    <div class="icon-box">
-    <i class='bx bxs-phone'></i>
-      <h4>Phone services</h4>
-      <p>Find all the phone number services for any emergency or information  </p>
-      <a href="spain-phones.php" class="get-started-btn ml-auto">See more</a>
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mt-md-0">
-    <div class="icon-box">
-    <i class='bx bxs-building-house' ></i>
-      <h4>Goverment</h4>
-      <p>Find all the goverment services you need </p>
-      <a href="spain-hospitals.php" class="get-started-btn ml-auto">See more</a>
-    </div>
-  </div>
+<div class="section-title">
+  <h2>Police Stations</h2>
+  <p>Police Stations in Madrid,Spain</p>
 </div>
 
-</div>
+
+
+
+<iframe src="spain-station-map.php" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<section id="team" class="team ">
+      <div class="container">
+
+        <div class="row">
+
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/police/p1.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>National Police district Madrid-Centro</h4>
+        <span><i class='bx bxs-phone'>+34915487985</i></span>
+        <p><i class='bx bxs-map' >Calle de Leganitos, 19, 28004 Madrid, Spain</i></p>
+        <br>
+        <a href="https://www.policia.es/_es/index.php" target="_blank">
+        <button type="button" class="btn btn-warning" >Visit site</button></a>
+        <a href="go-hospit.php" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/police/p2.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>District Police Station Madrid Retiro</h4>
+        <span><i class='bx bxs-phone'>+34913221021</i></span>
+        <p><i class='bx bxs-map' >Calle de las Huertas, 76-78, 28014 Madrid, Spain</i></p>
+        <br>
+        <a href="http://www.policia.es/" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/police/p3.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>National Police Headquarters</h4>
+        <span><i class='bx bxs-phone'>+34913223400</i></span>
+        <p><i class='bx bxs-map' >Av. del Dr. Federico Rubio y Galí, 55, 28040 Madrid, Spain</i></p>
+        <br>
+        
+          <br>
+        <a href="http://www.policia.es/" target="_blank">
+        <button type="button" class="btn btn-warning" >See more</button></a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="member d-flex align-items-start">
+    <div class="pic"><img src="assets/img/police/p4.jpg" class="img-fluid" alt=""></div>
+      <div class="member-info">
+        <h4>Comisaría de Policía Nacional Distrito de Chamberí</h4>
+        <span><i class='bx bxs-phone'>+34913223268</i></span>
+        <p><i class='bx bxs-map' >C. de Rafael Calvo, 33, 28010 Madrid, Spain</i></p>
+        <br>
+       
+        <a href="http://www.policia.es/" target="_blank">
+        <button type="button" class="btn btn-warning"> See more </button> </a></div>
+              
+      </div>
+    </div>
+  </div>
+
+  
+ 
 </section>
 
+    </section><!-- End Features Section -->
 
   </main><!-- End #main -->
 
@@ -244,6 +274,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+ 
 </body>
 
 </html>
+
+

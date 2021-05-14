@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -16,6 +16,13 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+</style>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -25,7 +32,9 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="./css.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -35,25 +44,64 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
 
+
+  <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+      .myLink {display: none}
+</style>
+</head>
 
 <body>
 
   <!-- ======= Header ======= -->
- 
-  <?php include "header.php"; ?>
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo"><a href="index.html">Sailor</a></h1>
+    
+      <?php include "header.php"; ?>
+      <!-- .nav-menu -->
+
+    
+    </div>
+  </header><!-- End Header -->
 
   <main id="main">
 
-  <section id="breadcrumbs" class="breadcrumbs">
-      
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portolio</h2>
+          <ol>
+            <li><a href="index.php">Home</a></li>
+            <li>Portolio</li>
+          </ol>
+        </div>
+
+      </div>
     </section><!-- End Breadcrumbs -->
-  
+
     <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
 
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" ><a href="spain-home.php">Guide</a></li>
+              <li data-filter="*" class="filter-active"><a href="spain.php">Hotels</a></li>               
+              <li data-filter=".filter-app"><a href="spain-blog.php">News</a></li>
+               <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
+               <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
+               <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
+               <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
+            </ul>
+          </div>
+        </div>
 
-    
        
 
     <!-- ======= Breadcrumbs ======= -->
@@ -61,39 +109,73 @@
       <div class="container">
 
        <div class="d-flex justify-content-between align-items-center">
-          <h2>COVID 19</h2>
+          <h2>Book your hotel</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>COVID19</li>
+            <li><a href="spain.php">Booking</a></li>
+            <li>Hotels</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-  
-    
-    <div class="container">
-        <div class="row justify-content-center">
-        <br>
-        <p>View the Covid-19 cases of the country you want to travel.</p>
-            <div class="col-md-9">
-                <div class="card">
-                    <div class="card-header">Covid-19 Tracker</div>
-                    
-                    <div class="card-body">
-                    <input type="text" id="countryName" class="form-control" placeholder="Country">
-                    <button type="submit" id="submitBtn" class="btn btn-primary btn-block"  name="submit" >Search</button>
-                    <div class="row" id="result"> </div>
-                    </div>
-                </div>
+  <br>
+  <section id="team" class="team ">
+      <div class="container">
+
+        <div class="row">
+    <!-- ======= Team Section ======= -->
+    <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic" style="height:200px"><img src="assets/img/hotels/1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Four Seasons Hotel Madrid</h4>
+                <span><i class='bx bxs-map' >Sevilla, 3, Centro, 28014 Madrid, Spain</i></span>
+                
+                <p><i class='bx bx-wifi'> Wifi</i></p>
+                <p><i class='bx bxs-coffee' > Good breakfast</i></p>
+                <p><i class='bx bxs-spa' >  Spa and wellness centre</i></p>
+                <br>
+                <a href="hotel.php" class="get-started-btn ml-auto">See availability</a>
+              </div>
             </div>
+          </div>
 
-        </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/hotels/2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+              <h4>Riu Plaza España </h4>
+                <span><i class='bx bxs-map' >Calle Gran Vía, 84, Centro, 28013 Madrid, Spain</i></span>
+                <p><i class='bx bxs-droplet'> Pool with a view</i></p>
+                <p><i class='bx bxs-parking' > Private parking at the hotel</i></p>
+                <p><i class='bx bxs-spa' >  Spa and wellness centre</i></p>
+                <br>
+                <a href="hotel.php" class="get-started-btn ml-auto">See availability</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </div>    
-<script src="assets/js/covid.js"></script>
-
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic" style="height:200px"><img src="assets/img/hotels/3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Hotel Urban </h4>
+                <span><i class='bx bxs-map' >Carrera San Jerónimo, 34, Centro, 28014 Madrid, Spain</i></span>
+                <p><i class='bx bx-wifi'> Wifi</i></p>
+                <p><i class='bx bxs-coffee' > Good breakfast</i></p>
+                <p><i class='bx bxs-spa' >  Spa and wellness centre</i></p>
+                <br>
+                <a href="hotel.php" class="get-started-btn ml-auto">See availability</a>
+              </div>
+            </div>
+          </div>
+          </div>
+         
+     
+    </section><!-- End Team Section -->
   </main><!-- End #main -->
 
  <!-- ======= Footer ======= -->

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -80,10 +80,42 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+
+    <script>
+      const search = document.querySelector('.search');
+      const input = document.querySelector('.input');
+      var el = document.getElementById('search');
+
+      const newslist = document.querySelector('.news-list');
+
+      if(el){
+      el.addEventListener('submit',retrieve);
+      }
+      function retrieve(e){
+
+        e.preventDefault();
+
+        const apikey = '2d0b8c8ed80b459ba65d987707640a32';
+      
+        let topic = input.value;
+
+        console.log(topic);
+        
+      }
+
+    </script>
    
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       <div class="container">
+      <form class="search" action="" >
+        <input class="input" type="text" > </br>
+        <input type="submit"/>
+
+      </form>
+      <div class="container">
+      </div>
+        <ul class="class-list"></ul>
 
         <div class="row">
 

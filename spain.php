@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info-travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,7 +25,9 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="./css.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -35,6 +37,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
+  <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+      .myLink {display: none}
+</style>
 </head>
 
 <body>
@@ -44,41 +52,7 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo"><a href="index.html">Sailor</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <!-- <nav class="nav-menu d-none d-lg-block">
-
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li class="drop-down"><a href="#">About</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li><a href="services.html">Services</a></li>
-          <li class="active"><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-
-      </nav> -->
+    
       <?php include "header.php"; ?>
       <!-- .nav-menu -->
 
@@ -128,46 +102,62 @@
       <div class="container">
 
        <div class="d-flex justify-content-between align-items-center">
-          <h2>Book your hotel</h2>
+          <h2>Booking</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>Hotels</li>
+            <li>Booking</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
+  <br>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <img class="w3-image" src="assets/img/hotels/booking.jpg" alt="London" width="1500" height="700">
+  <div class="w3-display-middle" style="width:65%">
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-margin-right"></i>Hotel</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car w3-margin-right"></i>Rental</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="Flight" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Travel Madrid with us</h3>
+      <div class="w3-row-padding" style="margin:0 -16px;">
+        <div class="w3-half">
+          <label>From</label>
+          <input class="w3-input w3-border" type="text" placeholder="Departing from">
+        </div>
+        <div class="w3-half">
+          <label>To</label>
+          <input class="w3-input w3-border" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      </br>
+      <p><button class="w3-button w3-dark-grey">Search and find dates</button></p>
+    </div>
+
+    <div id="Hotel" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Find the best hotels</h3>
+      <p>Book a hotel with us and get the best fares and promotions.</p>
+      <p>We know hotels - we know comfort.</p>
+      <p><button class="w3-button w3-dark-grey"><a href="spain-hotels.php">Search Hotels</a></button></p>
+    </div>
+
+    <div id="Car" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Best car rental in the world!</h3>
+      <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+      <input class="w3-input w3-border" type="text" placeholder="Pick-up point">
+      <br>
+      <p><button class="w3-button w3-dark-grey">Search Availability</button></p>
+    </div>
   
-
-    <section id="team" class="team ">
-      <div class="container">
-
-        <div class="row">
-
-        <div class="col-lg-6">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src=".\icons\hotels\Hotel De Madrid.jpeg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-              <h4>Hotel De Madrid</h4>                                    
-                  <p><i class='bx bx-current-location' ></i>: Madrid </p>
-                  <p><i class='bx bxs-star'></i>:3 </p>
-                  <p><i class='bx bxs-bed' ></i>: 34 </p>
-                  <p><i class='bx bxs-dollar-circle'></i>: 300 /night</p>                
-                  <p><i class='bx bxs-door-open' >:</i></p>    
-                  <ul>
-                    <li>Breakfast</li>
-                    <li>Pool</li>
-                    <li>Gym</li>
-                    <li>Wifi</li>
-                  </ul>  
-               
-                  <a class="get-started-btn ml-auto">Book Now</a>
-           
-            </div>
-              </div>
-            </div>
-          </div>
+</header>
+         
            
 
         <!--
@@ -227,6 +217,8 @@
 
       </div> 
   -->
+
+  </div>
     </section>
 </main>
 
@@ -329,6 +321,25 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+   <script>
+// Tabs
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-orange", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-orange";
+}
+
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+</script>       
 
 </body>
 

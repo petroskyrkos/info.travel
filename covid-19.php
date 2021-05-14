@@ -16,6 +16,12 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
+                <div>
+
+
+                
+                </div>
+
                 <div class="card">
                     <div class="card-header">Covid-19 Tracker</div>
                     
@@ -30,7 +36,7 @@
         </div>
 
     </div>    
-<script src="./covid.js"></script>
+<script src="assets/js/covid.js"></script>
 </body>
 </html>
 

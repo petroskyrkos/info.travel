@@ -96,7 +96,7 @@
 
 
 
-<iframe src="test-g.php" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="spain-hospital-map.php" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 <section id="team" class="team ">
       <div class="container">
