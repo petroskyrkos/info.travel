@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 14 Μάη 2021 στις 22:26:33
+-- Χρόνος δημιουργίας: 15 Μάη 2021 στις 17:44:39
 -- Έκδοση διακομιστή: 10.4.14-MariaDB
 -- Έκδοση PHP: 7.4.11
 
@@ -75,88 +75,31 @@ CREATE TABLE `hotels` (
 --
 
 CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
-  `username` text NOT NULL,
-  `password` text NOT NULL,
-  `full_name` text NOT NULL,
-  `gender` text NOT NULL,
-  `age` int(11) NOT NULL,
-  `address` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `id` int(11) NOT NULL,
+  `uidUsers` text NOT NULL,
+  `pwdUsers` longtext NOT NULL,
+  `emailUsers` longtext NOT NULL,
+  `full_name` varchar(255) DEFAULT NULL,
+  `gender` varchar(255) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `hobby` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Άδειασμα δεδομένων του πίνακα `users`
 --
 
-INSERT INTO `users` (`user_id`, `username`, `password`, `full_name`, `gender`, `age`, `address`) VALUES
-(3, 'admin', '123', 'angel jude', 'male', 24, 'himamaylan city');
-
--- --------------------------------------------------------
-
---
--- Δομή πίνακα για τον πίνακα `users2`
---
-
-CREATE TABLE `users2` (
-  `user_id` int(11) NOT NULL,
-  `username` text NOT NULL,
-  `password` text NOT NULL,
-  `full_name` text NOT NULL,
-  `gender` text NOT NULL,
-  `age` int(11) NOT NULL,
-  `address` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Δομή πίνακα για τον πίνακα `userstest`
---
-
-CREATE TABLE `userstest` (
-  `id` int(11) NOT NULL,
-  `uidUsers` text NOT NULL,
-  `pwdUsers` longtext NOT NULL,
-  `emailUsers` longtext NOT NULL,
-  `Last_Name` text NOT NULL,
-  `First_Name` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Άδειασμα δεδομένων του πίνακα `userstest`
---
-
-INSERT INTO `userstest` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `Last_Name`, `First_Name`) VALUES
-(1, 'petros', '123', 'asdasda@gmail.com', '', ''),
-(2, 'eleni', '123123', 'asdasda@gmail.com', '', ''),
-(3, 'ka', '123214', 'asdasdas$gmail.com', 'asd', 'asd'),
-(4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', '', ''),
-(5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', '', ''),
-(6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', '', ''),
-(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', '', ''),
-(8, 'elenhka98', '$2y$10$OJ0mvllPhIRMfUot0lhA0.u71raNfcFTpKjSIOhjd.I9dVRolrynG', 'elenhka98@gmail.com', '', ''),
-(9, 'rwrwrw', '$2y$10$9QeAypTBfNaIL5NY9RUYwOmcelXA73YiNWFfo/QUTloLrPKlkmEKm', 'rwerw8@gmail.com', '', '');
-
--- --------------------------------------------------------
-
---
--- Δομή πίνακα για τον πίνακα `user_profile`
---
-
-CREATE TABLE `user_profile` (
-  `id` int(11) NOT NULL,
-  `Gender` char(1) NOT NULL,
-  `Age` int(11) NOT NULL,
-  `Location` text NOT NULL,
-  `Hobby` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Άδειασμα δεδομένων του πίνακα `user_profile`
---
-
-INSERT INTO `user_profile` (`id`, `Gender`, `Age`, `Location`, `Hobby`) VALUES
-(1, 'm', 26, '8ess', 'sex');
+INSERT INTO `users` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `full_name`, `gender`, `age`, `address`, `hobby`) VALUES
+(1, 'petros', '123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(2, 'eleni', '123123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(3, 'ka', '123214', 'asdasdas$gmail.com', NULL, NULL, NULL, NULL, NULL),
+(4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', NULL, NULL, NULL, NULL, NULL),
+(5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(8, 'elenhka98', '$2y$10$OJ0mvllPhIRMfUot0lhA0.u71raNfcFTpKjSIOhjd.I9dVRolrynG', 'elenhka98@gmail.com', NULL, NULL, NULL, NULL, NULL),
+(9, 'rwrwrw', '$2y$10$9QeAypTBfNaIL5NY9RUYwOmcelXA73YiNWFfo/QUTloLrPKlkmEKm', 'rwerw8@gmail.com', NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Ευρετήρια για άχρηστους πίνακες
@@ -186,18 +129,6 @@ ALTER TABLE `hotels`
 -- Ευρετήρια για πίνακα `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`user_id`);
-
---
--- Ευρετήρια για πίνακα `userstest`
---
-ALTER TABLE `userstest`
-  ADD PRIMARY KEY (`id`);
-
---
--- Ευρετήρια για πίνακα `user_profile`
---
-ALTER TABLE `user_profile`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -226,19 +157,7 @@ ALTER TABLE `hotels`
 -- AUTO_INCREMENT για πίνακα `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT για πίνακα `userstest`
---
-ALTER TABLE `userstest`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT για πίνακα `user_profile`
---
-ALTER TABLE `user_profile`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Περιορισμοί για άχρηστους πίνακες
@@ -249,13 +168,7 @@ ALTER TABLE `user_profile`
 --
 ALTER TABLE `booking`
   ADD CONSTRAINT `booking_ibfk_1` FOREIGN KEY (`H_id`) REFERENCES `hotels` (`Hotel_id`),
-  ADD CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`User_id`) REFERENCES `userstest` (`id`);
-
---
--- Περιορισμοί για πίνακα `user_profile`
---
-ALTER TABLE `user_profile`
-  ADD CONSTRAINT `user_profile_ibfk_1` FOREIGN KEY (`id`) REFERENCES `userstest` (`id`);
+  ADD CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`User_id`) REFERENCES `users` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
