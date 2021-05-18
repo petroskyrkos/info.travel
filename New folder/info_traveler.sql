@@ -75,31 +75,33 @@ CREATE TABLE `hotels` (
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+   `id` int(11) NOT NULL,
   `uidUsers` text NOT NULL,
-  `pwdUsers` longtext NOT NULL,
-  `emailUsers` longtext NOT NULL,
+  `password` longtext NOT NULL,
+  `email` longtext NOT NULL,
   `full_name` varchar(255) DEFAULT NULL,
   `gender` varchar(255) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
   `address` varchar(255) DEFAULT NULL,
-  `hobby` varchar(255) DEFAULT NULL
+  `hobby` varchar(255) DEFAULT NULL,
+  `session` varchar(200) CHARACTER SET utf8 NOT NULL,
+  `avatar` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Άδειασμα δεδομένων του πίνακα `users`
 --
 
-INSERT INTO `users` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `full_name`, `gender`, `age`, `address`, `hobby`) VALUES
-(1, 'petros', '123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(2, 'eleni', '123123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(3, 'ka', '123214', 'asdasdas$gmail.com', NULL, NULL, NULL, NULL, NULL),
-(4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', NULL, NULL, NULL, NULL, NULL),
-(5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(8, 'elenhka98', '$2y$10$OJ0mvllPhIRMfUot0lhA0.u71raNfcFTpKjSIOhjd.I9dVRolrynG', 'elenhka98@gmail.com', NULL, NULL, NULL, NULL, NULL),
-(9, 'rwrwrw', '$2y$10$9QeAypTBfNaIL5NY9RUYwOmcelXA73YiNWFfo/QUTloLrPKlkmEKm', 'rwerw8@gmail.com', NULL, NULL, NULL, NULL, NULL);
+-- INSERT INTO `users` (`id`, `uidUsers`, `pwdUsers`, `emailUsers`, `full_name`, `gender`, `age`, `address`, `hobby`) VALUES
+-- (1, 'petros', '123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (2, 'eleni', '123123', 'asdasda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (3, 'ka', '123214', 'asdasdas$gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (4, 'kyrkos', '$2y$10$JzPh/Z9gQTpvJ0k5eG8P5u4XeLqi3rUERIIfF/LXxgtV5Pl0uemwi', 'petr@gasdas.com', NULL, NULL, NULL, NULL, NULL),
+-- (5, 'petros1', '$2y$10$cOW6NRAGG.PsY6ODGuk03.h5dBgs3JVSM7AwvOpWyJV6MzcRykb3W', 'petros@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (6, 'petros12', '$2y$10$C6YEoehY.Q4ZTF2f1u0jteUQIlDmUslot5n5zonPghtmZ9fpY84Xm', 'petros1@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (7, 'asd', '$2y$10$m6Ke2oN8WXCW1kD2obHjdOV5JO5zT665NGYAvKy5Hhl6kG3PiITDS', 'asda@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (8, 'elenhka98', '$2y$10$OJ0mvllPhIRMfUot0lhA0.u71raNfcFTpKjSIOhjd.I9dVRolrynG', 'elenhka98@gmail.com', NULL, NULL, NULL, NULL, NULL),
+-- (9, 'rwrwrw', '$2y$10$9QeAypTBfNaIL5NY9RUYwOmcelXA73YiNWFfo/QUTloLrPKlkmEKm', 'rwerw8@gmail.com', NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Ευρετήρια για άχρηστους πίνακες

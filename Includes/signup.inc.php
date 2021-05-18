@@ -25,21 +25,21 @@ if (isset($_POST['signup-submit'])) {
     header("Location: ../register.php?error=passwordcheck&uid=" . $username . "&mail=" . $email);
     exit();
   } else {
-    $sql = "SELECT uidUsers FROM users WHERE uidUsers=?";
+    $sql = "SELECT uidUsers FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($mysqli);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
       header("Location: ../register.php?error=sqlerror");
       exit();
     } else {
-      mysqli_stmt_bind_param($stmt, "s", $username);
+      mysqli_stmt_bind_param($stmt, "s", $email);
       mysqli_stmt_execute($stmt);
       mysqli_stmt_store_result($stmt);
       $resultCheck = mysqli_stmt_num_rows($stmt);
       if ($resultCheck > 0) {
-        header("Location: ../register.php?error=usertaken&mail=" . $email);
+        header("Location: ../register.php?error=mail=" . $email);
         exit();
       } else {
-        $sql = "INSERT INTO users (uidUsers , emailUsers, pwdUsers) VALUES (? , ? ,?)";
+        $sql = "INSERT INTO users (uidUsers , email, password) VALUES (? , ? ,?)";
         $stmt = mysqli_stmt_init($mysqli);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
           header("Location: ../register.php?error=sqlerror");

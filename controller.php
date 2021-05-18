@@ -20,8 +20,8 @@ if(!isset($token["error"])){
             'email' => $userData['email'],
             'avatar' => $userData['picture'],
             'picture' => $userData['picture'],
-            'familyName' => $userData['familyName'],
-            'givenName' => $userData['givenName'],
+            'full_name' => $userData['familyName'],
+            'uidUsers' => $userData['givenName'],
         )
     );
 }else{

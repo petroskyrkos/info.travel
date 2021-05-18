@@ -2,7 +2,7 @@
 require "db_upass.php";
 
 $host='localhost';
-$db = 'info.traveler';
+$db = 'info_traveler';
 
 
 $user=$DB_USER;
