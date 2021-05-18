@@ -334,7 +334,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
                                 $result = mysqli_query($mysqli, $query) or die(mysqli_error($mysqli));
                                 ?>
                                 <script type="text/javascript">
-                        alert("Update Successfull.");
+                        alert("Update Successfull!!");
                         window.location = "profile.php";
                     </script>
                     <?php

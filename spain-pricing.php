@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info.travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -89,14 +89,15 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
+              <h3>2 nights in Madrid</h3>
+              <h4><sup>$</sup>400<span></span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>2 nights in Madrid</li>
+                <li>Tour to Royal Palace and Main Square</li>
+                <li>Breakfast included</li>
+                <li class="na">Coach</li>
+                <li class="na">Flight</li>
+                <br>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -106,14 +107,16 @@
 
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
             <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+              <h3>3 nights in Barcelona</h3>
+              <h4><sup>$</sup>819<span></span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Flight into Barcelona</li>
+                <li>Hotel for 3 nights in Barcelona</li>
+                <li>Tours to sights</li>
+                <li>Coach</li>
+                <li>Breakfast Included</li>
+                <br>
+                <br>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -123,14 +126,16 @@
 
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
+              <h3>3 days in Madrid</h3>
+              <h4><sup>$</sup>929<span></span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>Flight into Madrid</li>
+                <li>Hotel for 3 nights in Madrid</li>
+                <li>Tours to sights</li>
+                <li>Coach</li>
+                <li>Breakfast Included</li>
+                <br>
+                <br>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -140,15 +145,15 @@
 
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box">
-              <span class="advanced">Advanced</span>
+              <span class="advanced">Exclusive</span>
               <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
+              <h4><sup>$</sup>1249<span></span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>VIP tours</li>
+                <li>5 star hotels</li>
+                <li>Flight from Madrid to Barcelona</li>
+                <li>7 nights in Madrid and 7 in Barcelona</li>
+                <li>VIP coach</li>
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
@@ -173,11 +178,11 @@
         <div class="row faq-item d-flex align-items-stretch">
           <div class="col-lg-5">
             <i class="bx bx-help-circle"></i>
-            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
+            <h4>Is Spain expensive?</h4>
           </div>
           <div class="col-lg-7">
             <p>
-              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              Spain still offers great value compared to most Europe. The best thing is that you can still travel on a budget and visit, just depends on the season and where in Spain you want to travel.
             </p>
           </div>
         </div><!-- End F.A.Q Item-->
@@ -185,11 +190,11 @@
         <div class="row faq-item d-flex align-items-stretch">
           <div class="col-lg-5">
             <i class="bx bx-help-circle"></i>
-            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
+            <h4>When is the best time to visit Spain?</h4>
           </div>
           <div class="col-lg-7">
             <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+             It depends on where you want to go. Southern Spain is sunny all year round but expect melting hot temperatures during July and August. Northern Spain’s weather is excellent in the summer and can be moody the rest of the year. But in general, spring or fall tends to be ideal. If you are thinking on skiing, check December through Easter week for good snow in most resorts. Or visit the Canary Islands for an almost all year sunny weather.
             </p>
           </div>
         </div><!-- End F.A.Q Item-->
@@ -197,35 +202,41 @@
         <div class="row faq-item d-flex align-items-stretch">
           <div class="col-lg-5">
             <i class="bx bx-help-circle"></i>
-            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
+            <h4>How do i get around Spain?Can i drive by myself?</h4>
           </div>
           <div class="col-lg-7">
             <p>
-              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
-            </p>
+            The answer depends on where you want to go. We always tell you how to get to the destinations we write about, so you can choose wisely. Most top destinations are connected between them by train, bus and/or plane. Just take into account that regular trains are not that fast (fast ones are marked as AVE) and buses sometimes are limited when visiting under-the-radar destinations.
+
+            If you are planning to drive in Spain, we recommend obtaining an international driving permit prior to your arrival in Spain.            </p>
           </div>
         </div><!-- End F.A.Q Item-->
 
         <div class="row faq-item d-flex align-items-stretch">
           <div class="col-lg-5">
             <i class="bx bx-help-circle"></i>
-            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
+            <h4>Is a Visa required?</h4>
           </div>
           <div class="col-lg-7">
             <p>
-              Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
-            </p>
+            No visas are required for most Americans but tourists can only stay in the Schenghen area up to 180 days. Tourists cannot work in Spain, but they allow you to study as long as you don’t stay over 180 days.
+
+            For European citizens: Spain belongs to Schenghen area.
+
+            If you are from another country, please ask your local government or contact the Spanish Embassy.            </p>
           </div>
         </div><!-- End F.A.Q Item-->
 
         <div class="row faq-item d-flex align-items-stretch">
           <div class="col-lg-5">
             <i class="bx bx-help-circle"></i>
-            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
+            <h4>I don't speak Spanish.Is that a problem?</h4>
           </div>
           <div class="col-lg-7">
             <p>
-              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+            Learning a few basic words of Spanish is always handy. Most Spaniards don’t speak English at all, with the exception of the most touristic areas. Does it mean that you won’t find anybody to talk to? Absolutely not! Spaniards are open and easygoing, the younger generations study English at school and there are lots of foreigners here that will surely be glad to help you out. 
+            
+            And…you can check out our translator: <a href="spain-trans.php"><b>HERE</b> </a>    
             </p>
           </div>
         </div><!-- End F.A.Q Item-->

@@ -84,6 +84,7 @@ h8{
                <li data-filter=".filter-card"><a href="spain-covid.php">Covid 19</a></li>
                <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
                <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
+               <li data-filter=".filter-web"><a href="spain-pricing.php">Packages </a></li> 
                <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
              </ul>
            </div>
