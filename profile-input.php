@@ -308,11 +308,11 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
                       <label>Select a hobby</label>
                       <div class="form-group">
                       <select name="hobby" class="form-control" style="width:20em;">
-                        <option value="paint">Painting</option>
+                        <option value="Painting">Painting</option>
                         <option value="WatchTV">Watch Tv</option>
-                        <option value="PlayGames">Play Game</option>
+                        <option value="Food">Food</option>
                         <option value="Reading">Reading</option>
-                        <option value="Workout">Workout</option>
+                        <option value="Shopping">Shopping</option>
                       </select>
                       </div>
                       <div class="form-group">
@@ -355,7 +355,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
           <img src="assets/img/slide/nature4.jpg" alt="Forest" style="width:100%;">
           <p><strong>Holiday to Greece</strong></p>
           <p>Friday 15:00 2/6/2021</p>
-          <p><button class="w3-button w3-block w3-theme-l4"><a href="pricing.php" style="color:black">More info</a></button></p>
+          <p><button class="w3-button w3-block w3-theme-l4"><a href="spain-pricing.php" style="color:black">More info</a></button></p>
         </div>
       </div>
       <br>

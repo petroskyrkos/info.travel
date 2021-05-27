@@ -1,23 +1,4 @@
-<?php
-$city_name='Madrid,Spain';
-$api_key = '25e7b1850cb410cc4fa8a388c31007d0';
-
-$ex = 'http://api.openweathermap.org/data/2.5/weather?lat=40.4378698&lon=-3.8196207&appid='.$api_key;
-$weather_data = json_decode(file_get_contents($ex),true);
-
-$temperature = $weather_data['main']['temp'];
-
-//echo $temperature;
-
-$temperature_inC = $temperature - 273.15;
-$temp_weather = $weather_data['weather'][0]['main'];
-
-//echo "the temp in spain is : " .round($temperature_inC);
-
-
-?>
-
-
+<?php include "details/weather.php" ?>
 <!DOCTYPE html>
 <html>
 <title>info-traveler</title>
@@ -85,6 +66,7 @@ h8{
                <li data-filter=".filter-web" ><a href="spain-services.php">Services </a></li>              
                <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
                <li data-filter=".filter-web"><a href="spain-pricing.php">Packages </a></li> 
+               <li data-filter=".filter-web"><a href="spain-todo.php">Things to do</a></li> 
                <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
              </ul>
            </div>
@@ -333,29 +315,28 @@ h8{
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/portfolio/sp1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/services/fest1.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog1.php">What to visit</a>
+                <a href="blog-festivals.php">JANUARY/FEBRUARY</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                  
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href=""><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
               
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                Select from the list or hover over the map to find out about points of interest.
-                . Find the best places to visit such as museums,sights and others for your best experience in Madrid.
+                  Check out the festivals in Spain on January-February...
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-festivals.php">Read More</a>
                 </div>
               </div>
 
@@ -366,28 +347,28 @@ h8{
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/portfolio/sp2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/services/fest2.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Day trips from to Madrid </a>
+                <a href="blog-festivals.php">MARCH/APRIL</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href=""><time datetime="2020-03-01">April 1, 2020</time></a></li>
                 
                </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                If you’re reading this, you’ve probably decided to holiday in Madrid, or at least you’re considering it. You’ve made the right choice, because Madrid is a city full of life and culture, with a huge range of things to do and see, fabulous sites like the Royal Palace, and museums that everyone should visit at least once in their lives, such as the Prado.
+                  Check out the festivals in Spain on March-April...
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-festivals.php">Read More</a>
                 </div>
               </div>
 
@@ -397,28 +378,28 @@ h8{
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/portfolio/sp2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/services/fest3.jpg" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Day trips from to Madrid </a>
+                <a href="blog-festivals.php">MAY/AUGUST</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href=""><time datetime="2020-05-01">May 1, 2020</time></a></li>
                 
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                If you’re reading this, you’ve probably decided to holiday in Madrid, or at least you’re considering it. You’ve made the right choice, because Madrid is a city full of life and culture, with a huge range of things to do and see, fabulous sites like the Royal Palace, and museums that everyone should visit at least once in their lives, such as the Prado.
+                Check out the festivals in Spain on May-August...
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-festivals.php">Read More</a>
                 </div>
               </div>
 

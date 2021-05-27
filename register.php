@@ -74,7 +74,6 @@ session_start();
 									<button type="submit" class="btn btn-primary btn-block" name="signup-submit">
 										Register
 									</button>
-									<button onclick="window.location = <?php echo $login_url; ?>" type="button" class="btn btn-primary btn-block">Login with Google</button>
 									
 									<button class="btn btn-primary btn-block" style="height:50px;" onclick="window.location = index.php" >Return to Homepage</button>
 								</div>

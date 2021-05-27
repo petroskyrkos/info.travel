@@ -18,7 +18,7 @@
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Blog - Sailor Bootstrap Template</title>
+  <title>info.travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -323,7 +323,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
           <img src="assets/img/slide/nature4.jpg" alt="Forest" style="width:100%;">
           <p><strong>Holiday to Greece</strong></p>
           <p>Friday 15:00 2/6/2021</p>
-          <p><button class="w3-button w3-block w3-theme-l4"><a href="pricing.php" style="color:black">More info</a></button></p>
+          <p><button class="w3-button w3-block w3-theme-l4"><a href="spain-pricing.php" style="color:black">More info</a></button></p>
         </div>
       </div>
       <br>
@@ -392,7 +392,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-container">
         <h3>Ready for a new trip??</h3>
          <p>See our trip packages that are running right now</P>
-         <p><button class="w3-button w3-block w3-theme-l4"><a href="pricing.php" style="color:black">See here</a></button></p>
+         <p><button class="w3-button w3-block w3-theme-l4"><a href="spain-pricing.php" style="color:black">See here</a></button></p>
         </div>
       </div>
     

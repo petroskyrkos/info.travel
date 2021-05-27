@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
+  <title>info.travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -71,10 +71,11 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-  
+
     
     <div class="container">
         <div class="row justify-content-center">
+        <iframe src="covid-map.php" title="Covid-19 world map" style="width:100%; height:800px" ></iframe>
         <br>
         <p>View the Covid-19 cases of the country you want to travel.</p>
             <div class="col-md-9">

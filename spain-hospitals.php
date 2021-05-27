@@ -1,3 +1,4 @@
+<?php include "details/weather.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,6 +64,7 @@
              <li data-filter=".filter-web" class="filter-active"><a href="spain-services.php">Services </a></li>              
              <li data-filter=".filter-web"><a href="spain-trans.php">Translator </a></li>              
              <li data-filter=".filter-web"><a href="spain-pricing.php">Packages </a></li> 
+             <li data-filter=".filter-web"><a href="spain-todo.php">Things to do</a></li> 
              <li data-filter=".filter-web"><a href="spain-testimonials.php">Regulations </a></li>
            </ul>
          </div>
@@ -95,7 +97,45 @@
 </div>
 
 
+<div class="bottomright">
+            <div class="weather">
+                <div class="current">
+                    <div class="info">
+                        <div>&nbsp;</div>
+                        <div class="city"><?php echo $city_name ?></div>
+                        <div class="temp"><?php echo ''.round($temperature_inC);?>&deg; <small>C</small></div>
+                        <div class="wind"><?php echo $temp_weather; ?> </div>
+                        <div>&nbsp;</div>
+                    </div>
+                    <div class="icon">
+                        
+                        <!--<span class="iconify" data-icon="wi-day-sunny" data-inline="false"></span>'; -->
+                        
+                    </div>
+                </div>
+                <div class="future">
+                    <div class="day">
+                        <h3>
+                        <?php 
+                         echo ''.date("l");
+                         ?>
+                         </br>
+                        <?php 
+                        date_default_timezone_set("Europe/madrid");
+                        echo ''.date("Y/m/d");
+                        ?>
+                        </br>
+                        <?php
+                        echo "". date("h:i:sa");
+                        ?></h3>
 
+                        
+                    </div>
+                  </div>
+              
+            </div>
+       
+</div>
 
 <iframe src="spain-hospital-map.php" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
