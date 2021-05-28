@@ -43,7 +43,7 @@ echo 'Loged out'
         <ul>
           <li><a href="index.php">Home</a></li>
        
-              <li class="drop-down"><a href="#">Countries</a>
+             <!-- <li class="drop-down"><a href="#">Countries</a>
                 <ul>
                   
                       <li><a href="spain.php">Spain</a></li>
@@ -53,7 +53,7 @@ echo 'Loged out'
                       <li><a href="team.html">Switzerland</a></li>
                       <li><a href="team.html">Norway</a></li>
                 </ul>
-              </li>
+              </li> -->
             
          
           <li><a href="services.php">Services</a></li>
